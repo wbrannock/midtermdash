@@ -1,0 +1,2718 @@
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-11-03",
+ "contests": [
+  {
+   "race": "va-05",
+   "year": 2024,
+   "map": "2021-sms",
+   "contestId": 161288,
+   "sourceUrl": "https://historical.elections.virginia.gov/api/download_contest/161288_table.csv",
+   "fetchedAt": "2026-11-03",
+   "candidates": [
+    {
+     "name": "John J. McGuire, III",
+     "party": "R",
+     "votes": 249564,
+     "share": 0.5726059393491634
+    },
+    {
+     "name": "Gloria Tinsley Witt",
+     "party": "D",
+     "votes": 184229,
+     "share": 0.42269966662001335
+    },
+    {
+     "name": "Write-Ins",
+     "party": "W",
+     "votes": 2046,
+     "share": 0.0046943940308233085
+    }
+   ],
+   "totalVotes": 435839,
+   "marginDR": -14.99,
+   "localities": [
+    {
+     "name": "Albemarle County",
+     "total": 66105,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 23186
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 42689
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 230
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Amelia County",
+     "total": 7813,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 5755
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 2009
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 49
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Amherst County",
+     "total": 17199,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 11609
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 5535
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 55
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Appomattox County",
+     "total": 9454,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 7147
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 2206
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 101
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Bedford County",
+     "total": 19127,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 14179
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 4839
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 109
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Buckingham County",
+     "total": 7718,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 4843
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 2841
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 34
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Campbell County",
+     "total": 30925,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 23042
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 7642
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 241
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Charlotte County",
+     "total": 5940,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 4009
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 1911
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 20
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Charlottesville City",
+     "total": 22962,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 3815
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 19041
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 106
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Cumberland County",
+     "total": 5322,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 3350
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 1945
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 27
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Danville City",
+     "total": 17075,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 6896
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 10137
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 42
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Fluvanna County",
+     "total": 16501,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 8983
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 7438
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 80
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Goochland County",
+     "total": 19430,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 12068
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 7267
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 95
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Halifax County",
+     "total": 17649,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 10799
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 6780
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 70
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Hanover County",
+     "total": 11917,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 8235
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 3624
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 58
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Louisa County",
+     "total": 23713,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 15322
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 8265
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 126
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Lunenburg County",
+     "total": 5727,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 3609
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 2104
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 14
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Lynchburg City",
+     "total": 36443,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 19693
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 16500
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 250
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Mecklenburg County",
+     "total": 15729,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 9794
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 5887
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 48
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Nelson County",
+     "total": 9311,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 5079
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 4189
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 43
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Nottoway County",
+     "total": 6705,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 4190
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 2495
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 20
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Pittsylvania County",
+     "total": 33245,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 23902
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 9237
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 106
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Powhatan County",
+     "total": 20708,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 15278
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 5352
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 78
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Prince Edward County",
+     "total": 9121,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "John J. McGuire, III",
+       "votes": 4781
+      },
+      {
+       "party": "D",
+       "name": "Gloria Tinsley Witt",
+       "votes": 4296
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 44
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    }
+   ],
+   "turnout": {
+    "ballotsCast": 435839,
+    "registered": 610648,
+    "rate": 0.7137,
+    "note": "Turnout = votes cast in this contest ÷ registered voters (active + inactive) in the district on Nov 1, 2024 (Dept. of Elections registrant count). Ballots cast with no vote in this contest are not included."
+   }
+  },
+  {
+   "race": "va-09",
+   "year": 2024,
+   "map": "2021-sms",
+   "contestId": 161312,
+   "sourceUrl": "https://historical.elections.virginia.gov/api/download_contest/161312_table.csv",
+   "fetchedAt": "2026-11-03",
+   "candidates": [
+    {
+     "name": "Howard Morgan Griffith",
+     "party": "R",
+     "votes": 290645,
+     "share": 0.7248673817783686
+    },
+    {
+     "name": "Karen G. H. Baker",
+     "party": "D",
+     "votes": 109570,
+     "share": 0.27326710943403754
+    },
+    {
+     "name": "Write-Ins",
+     "party": "W",
+     "votes": 748,
+     "share": 0.0018655087875938678
+    }
+   ],
+   "totalVotes": 400963,
+   "marginDR": -45.16,
+   "localities": [
+    {
+     "name": "Bedford County",
+     "total": 31157,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 24196
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 6927
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 34
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Bland County",
+     "total": 3474,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 2961
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 511
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 2
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Bristol City",
+     "total": 7308,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 5169
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 2127
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 12
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Buchanan County",
+     "total": 9087,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 7598
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 1471
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 18
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Carroll County",
+     "total": 15877,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 12984
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 2879
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 14
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Craig County",
+     "total": 3078,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 2557
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 514
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 7
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Dickenson County",
+     "total": 6861,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 5294
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 1555
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 12
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Floyd County",
+     "total": 9587,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 6618
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 2957
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 12
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Franklin County",
+     "total": 30452,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 22506
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 7906
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 40
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Galax City",
+     "total": 2686,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 1942
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 738
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 6
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Giles County",
+     "total": 9098,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 7119
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 1964
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 15
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Grayson County",
+     "total": 7965,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 6426
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 1525
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 14
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Henry County",
+     "total": 24898,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 16871
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 7975
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 52
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Lee County",
+     "total": 9832,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 8357
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 1456
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 19
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Martinsville City",
+     "total": 5492,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 2261
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 3219
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 12
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Montgomery County",
+     "total": 46545,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 23423
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 22983
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 139
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Norton City",
+     "total": 1593,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 1164
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 428
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 1
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Patrick County",
+     "total": 9434,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 7595
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 1829
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 10
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Pulaski County",
+     "total": 17469,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 12877
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 4568
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 24
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Radford City",
+     "total": 6436,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 3320
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 3102
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 14
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Roanoke County",
+     "total": 24156,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 14440
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 9664
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 52
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Russell County",
+     "total": 13285,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 10696
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 2564
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 25
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Scott County",
+     "total": 10855,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 9089
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 1743
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 23
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Smyth County",
+     "total": 14229,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 11425
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 2776
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 28
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Tazewell County",
+     "total": 19334,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 16113
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 3191
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 30
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Washington County",
+     "total": 29173,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 22354
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 6761
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 58
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Wise County",
+     "total": 16373,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 13082
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 3247
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 44
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Wythe County",
+     "total": 15229,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 12208
+      },
+      {
+       "party": "D",
+       "name": "Karen G. H. Baker",
+       "votes": 2990
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 31
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    }
+   ],
+   "turnout": {
+    "ballotsCast": 400963,
+    "registered": 571951,
+    "rate": 0.701,
+    "note": "Turnout = votes cast in this contest ÷ registered voters (active + inactive) in the district on Nov 1, 2024 (Dept. of Elections registrant count). Ballots cast with no vote in this contest are not included."
+   }
+  },
+  {
+   "race": "va-05",
+   "year": 2018,
+   "map": "2016-court",
+   "contestId": 134059,
+   "sourceUrl": "https://historical.elections.virginia.gov/api/download_contest/134059_table.csv",
+   "fetchedAt": "2026-11-03",
+   "candidates": [
+    {
+     "name": "Denver Lee Riggleman, III",
+     "party": "R",
+     "votes": 165339,
+     "share": 0.5317580540895188
+    },
+    {
+     "name": "Leslie Corkill Cockburn",
+     "party": "D",
+     "votes": 145040,
+     "share": 0.4664730533337193
+    },
+    {
+     "name": "Write-Ins",
+     "party": "W",
+     "votes": 550,
+     "share": 0.0017688925767618973
+    }
+   ],
+   "totalVotes": 310929,
+   "marginDR": -6.53,
+   "localities": [
+    {
+     "name": "Albemarle County",
+     "total": 53333,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 18807
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 34409
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 117
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Appomattox County",
+     "total": 6664,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 4909
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 1744
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 11
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Bedford County",
+     "total": 19064,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 14050
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 4975
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 39
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Brunswick County",
+     "total": 6137,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 2463
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 3666
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 8
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Buckingham County",
+     "total": 6108,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 3363
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 2737
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 8
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Campbell County",
+     "total": 21923,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 15829
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 6045
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 49
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Charlotte County",
+     "total": 4715,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 2888
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 1820
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 7
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Charlottesville City",
+     "total": 20490,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 3010
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 17422
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 58
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Cumberland County",
+     "total": 4145,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 2350
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 1790
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 5
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Danville City",
+     "total": 15079,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 5847
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 9216
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 16
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Fauquier County",
+     "total": 26197,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 15047
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 11109
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 41
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Fluvanna County",
+     "total": 11986,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 6172
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 5790
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 24
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Franklin County",
+     "total": 22127,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 15355
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 6727
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 45
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Greene County",
+     "total": 8126,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 5050
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 3062
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 14
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Halifax County",
+     "total": 13649,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 7843
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 5791
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 15
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Henry County",
+     "total": 5354,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 2986
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 2362
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 6
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Lunenburg County",
+     "total": 4476,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 2557
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 1911
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 8
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Madison County",
+     "total": 6025,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 3813
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 2202
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 10
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Mecklenburg County",
+     "total": 11780,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 6616
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 5153
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 11
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Nelson County",
+     "total": 7368,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 3686
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 3669
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 13
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Pittsylvania County",
+     "total": 25248,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 17429
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 7788
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 31
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Prince Edward County",
+     "total": 7050,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 3227
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 3815
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 8
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Rappahannock County",
+     "total": 3885,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Denver Lee Riggleman, III",
+       "votes": 2042
+      },
+      {
+       "party": "D",
+       "name": "Leslie Corkill Cockburn",
+       "votes": 1837
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 6
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    }
+   ],
+   "turnout": {
+    "ballotsCast": 310929,
+    "registered": 512652,
+    "rate": 0.6065,
+    "note": "Turnout = votes cast in this contest ÷ registered voters (active + inactive) in the district on Nov 1, 2018 (Dept. of Elections registrant count). Ballots cast with no vote in this contest are not included."
+   }
+  },
+  {
+   "race": "va-09",
+   "year": 2018,
+   "map": "2016-court",
+   "contestId": 134060,
+   "sourceUrl": "https://historical.elections.virginia.gov/api/download_contest/134060_table.csv",
+   "fetchedAt": "2026-11-03",
+   "candidates": [
+    {
+     "name": "Howard Morgan Griffith",
+     "party": "R",
+     "votes": 160933,
+     "share": 0.6515796250035427
+    },
+    {
+     "name": "Anthony Jude Flaccavento",
+     "party": "D",
+     "votes": 85833,
+     "share": 0.3475175007793869
+    },
+    {
+     "name": "Write-Ins",
+     "party": "W",
+     "votes": 223,
+     "share": 0.0009028742170703959
+    }
+   ],
+   "totalVotes": 246989,
+   "marginDR": -30.41,
+   "localities": [
+    {
+     "name": "Alleghany County",
+     "total": 5457,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 3563
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 1892
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 2
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Bland County",
+     "total": 2456,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 1950
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 505
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 1
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Bristol City",
+     "total": 5283,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 3521
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 1751
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 11
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Buchanan County",
+     "total": 5979,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 4149
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 1824
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 6
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Carroll County",
+     "total": 10611,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 8052
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 2551
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 8
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Covington City",
+     "total": 1780,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 1024
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 755
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 1
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Craig County",
+     "total": 2199,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 1670
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 529
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 0
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Dickenson County",
+     "total": 4499,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 2864
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 1631
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 4
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Floyd County",
+     "total": 6754,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 4237
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 2512
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 5
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Galax City",
+     "total": 1832,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 1173
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 658
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 1
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Giles County",
+     "total": 6648,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 4714
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 1933
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 1
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Grayson County",
+     "total": 5733,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 4187
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 1543
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 3
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Henry County",
+     "total": 13343,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 8808
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 4531
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 4
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Lee County",
+     "total": 6842,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 5104
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 1735
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 3
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Martinsville City",
+     "total": 4552,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 1673
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 2865
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 14
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Montgomery County",
+     "total": 35510,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 15506
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 19969
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 35
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Norton City",
+     "total": 1103,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 684
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 416
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 3
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Patrick County",
+     "total": 6701,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 5071
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 1620
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 10
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Pulaski County",
+     "total": 12092,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 8021
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 4056
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 15
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Radford City",
+     "total": 5089,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 2103
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 2978
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 8
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Roanoke County",
+     "total": 10813,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 6876
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 3926
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 11
+      }
+     ],
+     "split": true,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Russell County",
+     "total": 8984,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 6283
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 2695
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 6
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Salem City",
+     "total": 9903,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 6008
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 3890
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 5
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Scott County",
+     "total": 7558,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 5865
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 1687
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 6
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Smyth County",
+     "total": 9671,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 6843
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 2825
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 3
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Tazewell County",
+     "total": 13387,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 10643
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 2732
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 12
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Washington County",
+     "total": 20516,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 14490
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 6001
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 25
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Wise County",
+     "total": 10986,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 8022
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 2955
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 9
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    },
+    {
+     "name": "Wythe County",
+     "total": 10708,
+     "candidates": [
+      {
+       "party": "R",
+       "name": "Howard Morgan Griffith",
+       "votes": 7829
+      },
+      {
+       "party": "D",
+       "name": "Anthony Jude Flaccavento",
+       "votes": 2868
+      },
+      {
+       "party": "W",
+       "name": "Write-Ins",
+       "votes": 11
+      }
+     ],
+     "split": false,
+     "registered": null,
+     "ballotsCast": null
+    }
+   ],
+   "turnout": {
+    "ballotsCast": 246989,
+    "registered": 467683,
+    "rate": 0.5281,
+    "note": "Turnout = votes cast in this contest ÷ registered voters (active + inactive) in the district on Nov 1, 2018 (Dept. of Elections registrant count). Ballots cast with no vote in this contest are not included."
+   }
+  }
+ ],
+ "comparableGeography": {
+  "va-05:2018": {
+   "localities": [
+    "Appomattox County",
+    "Buckingham County",
+    "Campbell County",
+    "Charlotte County",
+    "Charlottesville City",
+    "Cumberland County",
+    "Danville City",
+    "Fluvanna County",
+    "Halifax County",
+    "Lunenburg County",
+    "Mecklenburg County",
+    "Nelson County",
+    "Pittsylvania County",
+    "Prince Edward County"
+   ],
+   "note": "Localities wholly inside VA-05 under both the 2016 court-ordered map (2018) and the 2021 Supreme Court of Virginia map (2024, 2026). Split localities (Bedford County, Henry County, Fauquier County, Albemarle County, Hanover County) are excluded because locality-level totals include precincts from other districts."
+  },
+  "va-09:2018": {
+   "localities": [
+    "Bland County",
+    "Bristol City",
+    "Buchanan County",
+    "Carroll County",
+    "Craig County",
+    "Dickenson County",
+    "Floyd County",
+    "Galax City",
+    "Giles County",
+    "Grayson County",
+    "Lee County",
+    "Martinsville City",
+    "Montgomery County",
+    "Norton City",
+    "Patrick County",
+    "Pulaski County",
+    "Radford City",
+    "Russell County",
+    "Scott County",
+    "Smyth County",
+    "Tazewell County",
+    "Washington County",
+    "Wise County",
+    "Wythe County"
+   ],
+   "note": "Localities wholly inside VA-09 under both the 2016 court-ordered map (2018) and the 2021 Supreme Court of Virginia map (2024, 2026). Split localities (Henry County, Roanoke County, Bedford County) are excluded because locality-level totals include precincts from other districts."
+  }
+ },
+ "registration2026": {
+  "va-05": {
+   "active": 596837,
+   "total": 626743,
+   "asOf": "2026-11-01",
+   "sourceUrl": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Congressional_2026_11_01_054459.csv"
+  },
+  "va-09": {
+   "active": 552600,
+   "total": 580619,
+   "asOf": "2026-11-01",
+   "sourceUrl": "https://www.elections.virginia.gov/media/registration-statistics/2026/10/csv/Daily_Registrant_Count_By_Congressional_2026_11_01_054459.csv"
+  }
+ }
+}

@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated data checkout used by the pipeline
+out-data/
+AGENTS.md
