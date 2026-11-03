@@ -12,7 +12,10 @@
     "pipeline": "tsx pipeline/run.ts",
     "fetch-historical": "tsx scripts/fetch-historical.ts",
     "build-baselines": "tsx scripts/build-baselines.ts",
-    "check-baselines": "tsx scripts/build-baselines.ts --check"
+    "check-baselines": "tsx scripts/build-baselines.ts --check",
+    "fetch-historical-tx": "tsx scripts/fetch-historical-tx.ts",
+    "build-tx-baselines": "tsx scripts/build-tx-baselines.ts",
+    "check-tx-baselines": "tsx scripts/build-tx-baselines.ts --check"
   },
   "dependencies": {
     "next": "16.4.5",

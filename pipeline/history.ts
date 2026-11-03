@@ -26,10 +26,10 @@ export function appendHistory(prev: HistorySnapshot | null, subjects: MarketSubj
   return { schemaVersion: 1, generatedAt: new Date(nowMs).toISOString(), columns: ["t", "polymarket", "kalshi", "consensus"], series };
 }
 
-export function bound(points: HistorySnapshot["series"][string], nowMs: number): HistorySnapshot["series"][string] {
+export function bound<P extends [number, ...unknown[]]>(points: P[], nowMs: number): P[] {
   const { fullResolutionMs, thinBucketMs, maxAgeMs, maxPoints } = HISTORY_LIMITS;
   const sorted = [...points].sort((a, b) => a[0] - b[0]);
-  const out: typeof sorted = [];
+  const out: P[] = [];
   let lastBucket = -1;
   for (const p of sorted) {
     const ageMs = nowMs - p[0] * 1000;

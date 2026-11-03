@@ -14,7 +14,10 @@ import path from "node:path";
 import { ELECTION_NIGHT_WINDOW, MARKET_SUBJECTS, WATCHED_RACES } from "@/lib/registry";
 import {
   BaselinesSchema,
+  ForecastHistorySchema,
+  ForecastSnapshotSchema,
   HistorySnapshotSchema,
+  UnitBaselinesSchema,
   MarketsSnapshotSchema,
   ResultsSnapshotSchema,
   StatusSnapshotSchema,
@@ -32,9 +35,10 @@ import { fetchKalshi } from "./adapters/kalshi";
 import { fetchVirginia } from "./adapters/va-enr";
 import { fetchTexas } from "./adapters/tx-civix";
 import { appendHistory } from "./history";
+import { appendForecastHistory, buildForecastSnapshot } from "./forecast";
 import { readPrevious, writeValidated } from "./write";
 
-const PIPELINE_VERSION = "1.0.0";
+const PIPELINE_VERSION = "1.1.0";
 
 function arg(name: string): string | undefined {
   const i = process.argv.indexOf(name);
@@ -65,7 +69,10 @@ async function main() {
   const prevResults = readPrevious(dataDir, "latest/results.json", ResultsSnapshotSchema);
   const prevStatus = readPrevious(dataDir, "latest/status.json", StatusSnapshotSchema);
   const prevHistory = readPrevious(dataDir, "history/markets.json", HistorySnapshotSchema);
+  const prevForecast = readPrevious(dataDir, "latest/forecast.json", ForecastSnapshotSchema);
+  const prevForecastHistory = readPrevious(dataDir, "history/forecast.json", ForecastHistorySchema);
   const baselines = readPrevious(path.resolve("data/historical/va"), "baselines.json", BaselinesSchema);
+  const txBaselines = readPrevious(path.resolve("data/historical/tx"), "baselines.json", UnitBaselinesSchema);
 
   const registered: Record<string, { total: number; source: string }> = {};
   for (const [race, r] of Object.entries(baselines?.registration2026 ?? {})) registered[race] = { total: r.total, source: `VA Dept. of Elections registrant count, ${r.asOf}` };
@@ -167,6 +174,20 @@ async function main() {
   const hw = writeValidated(dataDir, "history/markets.json", history, HistorySnapshotSchema);
   if (!hw.ok) notes.push(`history failed validation: ${hw.error}`);
 
+  /* ---------- live forecast ---------- */
+  // Uses the results and markets of this run; the prior is frozen at poll close (see pipeline/forecast.ts).
+  const fc = buildForecastSnapshot({ nowMs: now.getTime(), results: rw.ok ? races : (prevResults?.races ?? []), markets: mw.ok ? markets : prevMarkets, history: hw.ok ? history : prevHistory, previous: prevForecast, va: baselines, tx: txBaselines });
+  for (const s of fc.skipped) notes.push(`forecast skipped ${s}`);
+  const fw = writeValidated(dataDir, "latest/forecast.json", fc.snapshot, ForecastSnapshotSchema);
+  if (!fw.ok) {
+    notes.push(`forecast.json failed validation: ${fw.error}`);
+    retained.push("latest/forecast.json");
+  } else {
+    const fh = appendForecastHistory(prevForecastHistory, fc.snapshot, now.getTime());
+    const fhw = writeValidated(dataDir, "history/forecast.json", fh, ForecastHistorySchema);
+    if (!fhw.ok) notes.push(`forecast history failed validation: ${fhw.error}`);
+  }
+
   /* ---------- status ---------- */
   const status: StatusSnapshot = {
     schemaVersion: 1,
@@ -191,6 +212,7 @@ async function main() {
     console.log(`  ${s.id.padEnd(7)} pDem consensus=${s.consensus.pDem ?? "–"} ${v} flags=[${s.flags.join(",")}]`);
   }
   for (const r of races) console.log(`  ${r.id.padEnd(7)} ${r.status} votes=${r.totalVotes} reporting=${r.reporting.unitsReporting}/${r.reporting.unitsTotal} marginDR=${r.marginDR ?? "–"}`);
+  for (const f of fc.snapshot.races) console.log(`  ${f.id.padEnd(7)} forecast pDem=${f.pDem} margin=${f.marginMean}±${f.marginSd} prior=${f.prior.pDem ?? "–"}${f.prior.locked ? " (locked)" : ""} priorWeight=${f.priorWeight} reported=${f.reportedFraction} phase=${f.phase}`);
 }
 
 function emptyRace(w: (typeof WATCHED_RACES)[number], fetchedAt: string, error: string): RaceResult {

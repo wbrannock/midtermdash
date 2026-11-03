@@ -1,0 +1,4653 @@
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-11-03T19:43:57.377Z",
+ "unitKind": "county",
+ "contests": [
+  {
+   "race": "tx-sen",
+   "year": 2024,
+   "label": "2024 U.S. Senate (Cruz vs Allred)",
+   "sourceUrl": "https://ted.capitol.texas.gov/api/Offices/510/2/vtd",
+   "candidates": [
+    {
+     "name": "Allred",
+     "party": "D",
+     "votes": 5031142,
+     "share": 0.4456189699539416
+    },
+    {
+     "name": "Andrus",
+     "party": "W",
+     "votes": 534,
+     "share": 0.00004729751812916527
+    },
+    {
+     "name": "Brown",
+     "party": "L",
+     "votes": 266944,
+     "share": 0.023643799025228267
+    },
+    {
+     "name": "Cruz",
+     "party": "R",
+     "votes": 5990637,
+     "share": 0.5306034871025248
+    },
+    {
+     "name": "Roche",
+     "party": "W",
+     "votes": 976,
+     "share": 0.00008644640017615226
+    }
+   ],
+   "totalVotes": 11290233,
+   "marginDR": -8.5,
+   "registered": 18686517,
+   "units": [
+    {
+     "name": "Anderson County",
+     "fips": "001",
+     "dem": 3872,
+     "rep": 15022,
+     "other": 317,
+     "total": 19211,
+     "registered": 30672
+    },
+    {
+     "name": "Andrews County",
+     "fips": "003",
+     "dem": 873,
+     "rep": 4976,
+     "other": 123,
+     "total": 5972,
+     "registered": 10804
+    },
+    {
+     "name": "Angelina County",
+     "fips": "005",
+     "dem": 8382,
+     "rep": 24994,
+     "other": 687,
+     "total": 34063,
+     "registered": 56112
+    },
+    {
+     "name": "Aransas County",
+     "fips": "007",
+     "dem": 3069,
+     "rep": 9605,
+     "other": 282,
+     "total": 12956,
+     "registered": 19864
+    },
+    {
+     "name": "Archer County",
+     "fips": "009",
+     "dem": 562,
+     "rep": 4483,
+     "other": 64,
+     "total": 5109,
+     "registered": 7035
+    },
+    {
+     "name": "Armstrong County",
+     "fips": "011",
+     "dem": 97,
+     "rep": 1001,
+     "other": 14,
+     "total": 1112,
+     "registered": 1446
+    },
+    {
+     "name": "Atascosa County",
+     "fips": "013",
+     "dem": 5739,
+     "rep": 11973,
+     "other": 445,
+     "total": 18157,
+     "registered": 32258
+    },
+    {
+     "name": "Austin County",
+     "fips": "015",
+     "dem": 2998,
+     "rep": 11981,
+     "other": 308,
+     "total": 15287,
+     "registered": 22233
+    },
+    {
+     "name": "Bailey County",
+     "fips": "017",
+     "dem": 325,
+     "rep": 1352,
+     "other": 36,
+     "total": 1713,
+     "registered": 3178
+    },
+    {
+     "name": "Bandera County",
+     "fips": "019",
+     "dem": 2735,
+     "rep": 10472,
+     "other": 323,
+     "total": 13530,
+     "registered": 19115
+    },
+    {
+     "name": "Bastrop County",
+     "fips": "021",
+     "dem": 16445,
+     "rep": 21835,
+     "other": 1156,
+     "total": 39436,
+     "registered": 61870
+    },
+    {
+     "name": "Baylor County",
+     "fips": "023",
+     "dem": 198,
+     "rep": 1431,
+     "other": 40,
+     "total": 1669,
+     "registered": 2446
+    },
+    {
+     "name": "Bee County",
+     "fips": "025",
+     "dem": 2845,
+     "rep": 5639,
+     "other": 188,
+     "total": 8672,
+     "registered": 16036
+    },
+    {
+     "name": "Bell County",
+     "fips": "027",
+     "dem": 55441,
+     "rep": 70468,
+     "other": 3431,
+     "total": 129340,
+     "registered": 241417
+    },
+    {
+     "name": "Bexar County",
+     "fips": "029",
+     "dem": 422903,
+     "rep": 303262,
+     "other": 17774,
+     "total": 743939,
+     "registered": 1297295
+    },
+    {
+     "name": "Blanco County",
+     "fips": "031",
+     "dem": 2071,
+     "rep": 6243,
+     "other": 180,
+     "total": 8494,
+     "registered": 11065
+    },
+    {
+     "name": "Borden County",
+     "fips": "033",
+     "dem": 13,
+     "rep": 366,
+     "other": 4,
+     "total": 383,
+     "registered": 485
+    },
+    {
+     "name": "Bosque County",
+     "fips": "035",
+     "dem": 1712,
+     "rep": 7643,
+     "other": 198,
+     "total": 9553,
+     "registered": 13696
+    },
+    {
+     "name": "Bowie County",
+     "fips": "037",
+     "dem": 9405,
+     "rep": 26219,
+     "other": 567,
+     "total": 36191,
+     "registered": 62876
+    },
+    {
+     "name": "Brazoria County",
+     "fips": "039",
+     "dem": 67075,
+     "rep": 90208,
+     "other": 4163,
+     "total": 161446,
+     "registered": 250833
+    },
+    {
+     "name": "Brazos County",
+     "fips": "041",
+     "dem": 34849,
+     "rep": 54153,
+     "other": 2743,
+     "total": 91745,
+     "registered": 134950
+    },
+    {
+     "name": "Brewster County",
+     "fips": "043",
+     "dem": 1998,
+     "rep": 2422,
+     "other": 124,
+     "total": 4544,
+     "registered": 7460
+    },
+    {
+     "name": "Briscoe County",
+     "fips": "045",
+     "dem": 79,
+     "rep": 649,
+     "other": 15,
+     "total": 743,
+     "registered": 1032
+    },
+    {
+     "name": "Brooks County",
+     "fips": "047",
+     "dem": 1379,
+     "rep": 874,
+     "other": 49,
+     "total": 2302,
+     "registered": 4959
+    },
+    {
+     "name": "Brown County",
+     "fips": "049",
+     "dem": 2358,
+     "rep": 14106,
+     "other": 313,
+     "total": 16777,
+     "registered": 25646
+    },
+    {
+     "name": "Burleson County",
+     "fips": "051",
+     "dem": 1804,
+     "rep": 7325,
+     "other": 189,
+     "total": 9318,
+     "registered": 13960
+    },
+    {
+     "name": "Burnet County",
+     "fips": "053",
+     "dem": 6401,
+     "rep": 21056,
+     "other": 629,
+     "total": 28086,
+     "registered": 39306
+    },
+    {
+     "name": "Caldwell County",
+     "fips": "055",
+     "dem": 6851,
+     "rep": 8227,
+     "other": 462,
+     "total": 15540,
+     "registered": 27170
+    },
+    {
+     "name": "Calhoun County",
+     "fips": "057",
+     "dem": 2018,
+     "rep": 5603,
+     "other": 137,
+     "total": 7758,
+     "registered": 13248
+    },
+    {
+     "name": "Callahan County",
+     "fips": "059",
+     "dem": 863,
+     "rep": 5973,
+     "other": 140,
+     "total": 6976,
+     "registered": 10498
+    },
+    {
+     "name": "Cameron County",
+     "fips": "061",
+     "dem": 58330,
+     "rep": 53391,
+     "other": 2778,
+     "total": 114499,
+     "registered": 238593
+    },
+    {
+     "name": "Camp County",
+     "fips": "063",
+     "dem": 1257,
+     "rep": 3894,
+     "other": 75,
+     "total": 5226,
+     "registered": 8444
+    },
+    {
+     "name": "Carson County",
+     "fips": "065",
+     "dem": 328,
+     "rep": 2755,
+     "other": 64,
+     "total": 3147,
+     "registered": 4278
+    },
+    {
+     "name": "Cass County",
+     "fips": "067",
+     "dem": 2457,
+     "rep": 11477,
+     "other": 183,
+     "total": 14117,
+     "registered": 21884
+    },
+    {
+     "name": "Castro County",
+     "fips": "069",
+     "dem": 408,
+     "rep": 1530,
+     "other": 46,
+     "total": 1984,
+     "registered": 3696
+    },
+    {
+     "name": "Chambers County",
+     "fips": "071",
+     "dem": 4613,
+     "rep": 19735,
+     "other": 514,
+     "total": 24862,
+     "registered": 37204
+    },
+    {
+     "name": "Cherokee County",
+     "fips": "073",
+     "dem": 3915,
+     "rep": 16065,
+     "other": 413,
+     "total": 20393,
+     "registered": 32302
+    },
+    {
+     "name": "Childress County",
+     "fips": "075",
+     "dem": 285,
+     "rep": 1919,
+     "other": 40,
+     "total": 2244,
+     "registered": 3791
+    },
+    {
+     "name": "Clay County",
+     "fips": "077",
+     "dem": 663,
+     "rep": 5128,
+     "other": 88,
+     "total": 5879,
+     "registered": 8281
+    },
+    {
+     "name": "Cochran County",
+     "fips": "079",
+     "dem": 149,
+     "rep": 706,
+     "other": 25,
+     "total": 880,
+     "registered": 1688
+    },
+    {
+     "name": "Coke County",
+     "fips": "081",
+     "dem": 218,
+     "rep": 1567,
+     "other": 19,
+     "total": 1804,
+     "registered": 2458
+    },
+    {
+     "name": "Coleman County",
+     "fips": "083",
+     "dem": 470,
+     "rep": 3585,
+     "other": 67,
+     "total": 4122,
+     "registered": 6162
+    },
+    {
+     "name": "Collin County",
+     "fips": "085",
+     "dem": 236579,
+     "rep": 263381,
+     "other": 11173,
+     "total": 511133,
+     "registered": 751700
+    },
+    {
+     "name": "Collingsworth County",
+     "fips": "087",
+     "dem": 141,
+     "rep": 1039,
+     "other": 12,
+     "total": 1192,
+     "registered": 1889
+    },
+    {
+     "name": "Colorado County",
+     "fips": "089",
+     "dem": 2207,
+     "rep": 7554,
+     "other": 158,
+     "total": 9919,
+     "registered": 14850
+    },
+    {
+     "name": "Comal County",
+     "fips": "091",
+     "dem": 29149,
+     "rep": 71757,
+     "other": 2418,
+     "total": 103324,
+     "registered": 143953
+    },
+    {
+     "name": "Comanche County",
+     "fips": "093",
+     "dem": 962,
+     "rep": 5435,
+     "other": 109,
+     "total": 6506,
+     "registered": 10089
+    },
+    {
+     "name": "Concho County",
+     "fips": "095",
+     "dem": 176,
+     "rep": 989,
+     "other": 19,
+     "total": 1184,
+     "registered": 1795
+    },
+    {
+     "name": "Cooke County",
+     "fips": "097",
+     "dem": 3620,
+     "rep": 16284,
+     "other": 395,
+     "total": 20299,
+     "registered": 30399
+    },
+    {
+     "name": "Coryell County",
+     "fips": "099",
+     "dem": 7253,
+     "rep": 15708,
+     "other": 725,
+     "total": 23686,
+     "registered": 47318
+    },
+    {
+     "name": "Cottle County",
+     "fips": "101",
+     "dem": 90,
+     "rep": 544,
+     "other": 9,
+     "total": 643,
+     "registered": 995
+    },
+    {
+     "name": "Crane County",
+     "fips": "103",
+     "dem": 196,
+     "rep": 1115,
+     "other": 24,
+     "total": 1335,
+     "registered": 2681
+    },
+    {
+     "name": "Crockett County",
+     "fips": "105",
+     "dem": 328,
+     "rep": 1008,
+     "other": 36,
+     "total": 1372,
+     "registered": 2285
+    },
+    {
+     "name": "Crosby County",
+     "fips": "107",
+     "dem": 438,
+     "rep": 1370,
+     "other": 52,
+     "total": 1860,
+     "registered": 3633
+    },
+    {
+     "name": "Culberson County",
+     "fips": "109",
+     "dem": 340,
+     "rep": 394,
+     "other": 11,
+     "total": 745,
+     "registered": 1715
+    },
+    {
+     "name": "Dallam County",
+     "fips": "111",
+     "dem": 158,
+     "rep": 1229,
+     "other": 38,
+     "total": 1425,
+     "registered": 2860
+    },
+    {
+     "name": "Dallas County",
+     "fips": "113",
+     "dem": 531111,
+     "rep": 291497,
+     "other": 19514,
+     "total": 842122,
+     "registered": 1472262
+    },
+    {
+     "name": "Dawson County",
+     "fips": "115",
+     "dem": 688,
+     "rep": 2686,
+     "other": 81,
+     "total": 3455,
+     "registered": 6768
+    },
+    {
+     "name": "Deaf Smith County",
+     "fips": "117",
+     "dem": 1025,
+     "rep": 3113,
+     "other": 87,
+     "total": 4225,
+     "registered": 8736
+    },
+    {
+     "name": "Delta County",
+     "fips": "119",
+     "dem": 453,
+     "rep": 2158,
+     "other": 44,
+     "total": 2655,
+     "registered": 4097
+    },
+    {
+     "name": "Denton County",
+     "fips": "121",
+     "dem": 200676,
+     "rep": 237978,
+     "other": 9805,
+     "total": 448459,
+     "registered": 665965
+    },
+    {
+     "name": "DeWitt County",
+     "fips": "123",
+     "dem": 1392,
+     "rep": 6240,
+     "other": 118,
+     "total": 7750,
+     "registered": 11426
+    },
+    {
+     "name": "Dickens County",
+     "fips": "125",
+     "dem": 148,
+     "rep": 817,
+     "other": 18,
+     "total": 983,
+     "registered": 1426
+    },
+    {
+     "name": "Dimmit County",
+     "fips": "127",
+     "dem": 1835,
+     "rep": 1300,
+     "other": 89,
+     "total": 3224,
+     "registered": 6698
+    },
+    {
+     "name": "Donley County",
+     "fips": "129",
+     "dem": 192,
+     "rep": 1453,
+     "other": 25,
+     "total": 1670,
+     "registered": 2432
+    },
+    {
+     "name": "Duval County",
+     "fips": "131",
+     "dem": 2180,
+     "rep": 1868,
+     "other": 115,
+     "total": 4163,
+     "registered": 8018
+    },
+    {
+     "name": "Eastland County",
+     "fips": "133",
+     "dem": 1020,
+     "rep": 7131,
+     "other": 146,
+     "total": 8297,
+     "registered": 12534
+    },
+    {
+     "name": "Ector County",
+     "fips": "135",
+     "dem": 10638,
+     "rep": 30766,
+     "other": 921,
+     "total": 42325,
+     "registered": 86930
+    },
+    {
+     "name": "Edwards County",
+     "fips": "137",
+     "dem": 152,
+     "rep": 800,
+     "other": 22,
+     "total": 974,
+     "registered": 1508
+    },
+    {
+     "name": "El Paso County",
+     "fips": "141",
+     "dem": 141826,
+     "rep": 92997,
+     "other": 10074,
+     "total": 244897,
+     "registered": 524075
+    },
+    {
+     "name": "Ellis County",
+     "fips": "139",
+     "dem": 35685,
+     "rep": 61020,
+     "other": 2070,
+     "total": 98775,
+     "registered": 148354
+    },
+    {
+     "name": "Erath County",
+     "fips": "143",
+     "dem": 3126,
+     "rep": 14672,
+     "other": 380,
+     "total": 18178,
+     "registered": 25931
+    },
+    {
+     "name": "Falls County",
+     "fips": "145",
+     "dem": 1782,
+     "rep": 4351,
+     "other": 133,
+     "total": 6266,
+     "registered": 10596
+    },
+    {
+     "name": "Fannin County",
+     "fips": "147",
+     "dem": 2927,
+     "rep": 13084,
+     "other": 327,
+     "total": 16338,
+     "registered": 25103
+    },
+    {
+     "name": "Fayette County",
+     "fips": "149",
+     "dem": 2649,
+     "rep": 10408,
+     "other": 225,
+     "total": 13282,
+     "registered": 18338
+    },
+    {
+     "name": "Fisher County",
+     "fips": "151",
+     "dem": 358,
+     "rep": 1420,
+     "other": 33,
+     "total": 1811,
+     "registered": 2709
+    },
+    {
+     "name": "Floyd County",
+     "fips": "153",
+     "dem": 406,
+     "rep": 1617,
+     "other": 47,
+     "total": 2070,
+     "registered": 3654
+    },
+    {
+     "name": "Foard County",
+     "fips": "155",
+     "dem": 94,
+     "rep": 438,
+     "other": 6,
+     "total": 538,
+     "registered": 801
+    },
+    {
+     "name": "Fort Bend County",
+     "fips": "157",
+     "dem": 186710,
+     "rep": 159691,
+     "other": 9638,
+     "total": 356039,
+     "registered": 558922
+    },
+    {
+     "name": "Franklin County",
+     "fips": "159",
+     "dem": 859,
+     "rep": 4349,
+     "other": 68,
+     "total": 5276,
+     "registered": 7652
+    },
+    {
+     "name": "Freestone County",
+     "fips": "161",
+     "dem": 1602,
+     "rep": 7206,
+     "other": 160,
+     "total": 8968,
+     "registered": 13418
+    },
+    {
+     "name": "Frio County",
+     "fips": "163",
+     "dem": 2036,
+     "rep": 2567,
+     "other": 114,
+     "total": 4717,
+     "registered": 9542
+    },
+    {
+     "name": "Gaines County",
+     "fips": "165",
+     "dem": 561,
+     "rep": 5700,
+     "other": 106,
+     "total": 6367,
+     "registered": 10594
+    },
+    {
+     "name": "Galveston County",
+     "fips": "167",
+     "dem": 59316,
+     "rep": 95114,
+     "other": 3962,
+     "total": 158392,
+     "registered": 246771
+    },
+    {
+     "name": "Garza County",
+     "fips": "169",
+     "dem": 223,
+     "rep": 1318,
+     "other": 27,
+     "total": 1568,
+     "registered": 2656
+    },
+    {
+     "name": "Gillespie County",
+     "fips": "171",
+     "dem": 3296,
+     "rep": 12881,
+     "other": 334,
+     "total": 16511,
+     "registered": 21977
+    },
+    {
+     "name": "Glasscock County",
+     "fips": "173",
+     "dem": 37,
+     "rep": 616,
+     "other": 7,
+     "total": 660,
+     "registered": 840
+    },
+    {
+     "name": "Goliad County",
+     "fips": "175",
+     "dem": 853,
+     "rep": 3016,
+     "other": 67,
+     "total": 3936,
+     "registered": 5863
+    },
+    {
+     "name": "Gonzales County",
+     "fips": "177",
+     "dem": 1849,
+     "rep": 5607,
+     "other": 178,
+     "total": 7634,
+     "registered": 13270
+    },
+    {
+     "name": "Gray County",
+     "fips": "179",
+     "dem": 878,
+     "rep": 6489,
+     "other": 153,
+     "total": 7520,
+     "registered": 12323
+    },
+    {
+     "name": "Grayson County",
+     "fips": "181",
+     "dem": 15453,
+     "rep": 48504,
+     "other": 1319,
+     "total": 65276,
+     "registered": 100498
+    },
+    {
+     "name": "Gregg County",
+     "fips": "183",
+     "dem": 13660,
+     "rep": 31862,
+     "other": 983,
+     "total": 46505,
+     "registered": 76419
+    },
+    {
+     "name": "Grimes County",
+     "fips": "185",
+     "dem": 2900,
+     "rep": 10830,
+     "other": 261,
+     "total": 13991,
+     "registered": 21099
+    },
+    {
+     "name": "Guadalupe County",
+     "fips": "187",
+     "dem": 30981,
+     "rep": 50972,
+     "other": 2134,
+     "total": 84087,
+     "registered": 131243
+    },
+    {
+     "name": "Hale County",
+     "fips": "189",
+     "dem": 2013,
+     "rep": 6941,
+     "other": 241,
+     "total": 9195,
+     "registered": 18326
+    },
+    {
+     "name": "Hall County",
+     "fips": "191",
+     "dem": 155,
+     "rep": 957,
+     "other": 19,
+     "total": 1131,
+     "registered": 1889
+    },
+    {
+     "name": "Hamilton County",
+     "fips": "193",
+     "dem": 679,
+     "rep": 3699,
+     "other": 92,
+     "total": 4470,
+     "registered": 6264
+    },
+    {
+     "name": "Hansford County",
+     "fips": "195",
+     "dem": 147,
+     "rep": 1802,
+     "other": 30,
+     "total": 1979,
+     "registered": 2999
+    },
+    {
+     "name": "Hardeman County",
+     "fips": "197",
+     "dem": 217,
+     "rep": 1163,
+     "other": 18,
+     "total": 1398,
+     "registered": 2398
+    },
+    {
+     "name": "Hardin County",
+     "fips": "199",
+     "dem": 3603,
+     "rep": 23992,
+     "other": 473,
+     "total": 28068,
+     "registered": 43215
+    },
+    {
+     "name": "Harris County",
+     "fips": "201",
+     "dem": 841784,
+     "rep": 666027,
+     "other": 41103,
+     "total": 1548914,
+     "registered": 2699848
+    },
+    {
+     "name": "Harrison County",
+     "fips": "203",
+     "dem": 7408,
+     "rep": 22137,
+     "other": 534,
+     "total": 30079,
+     "registered": 47287
+    },
+    {
+     "name": "Hartley County",
+     "fips": "205",
+     "dem": 172,
+     "rep": 1817,
+     "other": 16,
+     "total": 2005,
+     "registered": 2847
+    },
+    {
+     "name": "Haskell County",
+     "fips": "207",
+     "dem": 357,
+     "rep": 1823,
+     "other": 45,
+     "total": 2225,
+     "registered": 3461
+    },
+    {
+     "name": "Hays County",
+     "fips": "209",
+     "dem": 67475,
+     "rep": 54436,
+     "other": 3665,
+     "total": 125576,
+     "registered": 187568
+    },
+    {
+     "name": "Hemphill County",
+     "fips": "211",
+     "dem": 195,
+     "rep": 1380,
+     "other": 25,
+     "total": 1600,
+     "registered": 2333
+    },
+    {
+     "name": "Henderson County",
+     "fips": "213",
+     "dem": 7453,
+     "rep": 30046,
+     "other": 718,
+     "total": 38217,
+     "registered": 59404
+    },
+    {
+     "name": "Hidalgo County",
+     "fips": "215",
+     "dem": 110139,
+     "rep": 96208,
+     "other": 5275,
+     "total": 211622,
+     "registered": 447334
+    },
+    {
+     "name": "Hill County",
+     "fips": "217",
+     "dem": 3223,
+     "rep": 13104,
+     "other": 331,
+     "total": 16658,
+     "registered": 26875
+    },
+    {
+     "name": "Hockley County",
+     "fips": "219",
+     "dem": 1355,
+     "rep": 6437,
+     "other": 163,
+     "total": 7955,
+     "registered": 14032
+    },
+    {
+     "name": "Hood County",
+     "fips": "221",
+     "dem": 6586,
+     "rep": 29107,
+     "other": 746,
+     "total": 36439,
+     "registered": 51874
+    },
+    {
+     "name": "Hopkins County",
+     "fips": "223",
+     "dem": 3142,
+     "rep": 13269,
+     "other": 294,
+     "total": 16705,
+     "registered": 25311
+    },
+    {
+     "name": "Houston County",
+     "fips": "225",
+     "dem": 2104,
+     "rep": 7033,
+     "other": 148,
+     "total": 9285,
+     "registered": 13899
+    },
+    {
+     "name": "Howard County",
+     "fips": "227",
+     "dem": 1895,
+     "rep": 7388,
+     "other": 228,
+     "total": 9511,
+     "registered": 17276
+    },
+    {
+     "name": "Hudspeth County",
+     "fips": "229",
+     "dem": 280,
+     "rep": 694,
+     "other": 32,
+     "total": 1006,
+     "registered": 2218
+    },
+    {
+     "name": "Hunt County",
+     "fips": "231",
+     "dem": 11067,
+     "rep": 34351,
+     "other": 991,
+     "total": 46409,
+     "registered": 73039
+    },
+    {
+     "name": "Hutchinson County",
+     "fips": "233",
+     "dem": 946,
+     "rep": 7047,
+     "other": 175,
+     "total": 8168,
+     "registered": 13523
+    },
+    {
+     "name": "Irion County",
+     "fips": "235",
+     "dem": 118,
+     "rep": 732,
+     "other": 17,
+     "total": 867,
+     "registered": 1240
+    },
+    {
+     "name": "Jack County",
+     "fips": "237",
+     "dem": 427,
+     "rep": 3689,
+     "other": 65,
+     "total": 4181,
+     "registered": 5893
+    },
+    {
+     "name": "Jackson County",
+     "fips": "239",
+     "dem": 994,
+     "rep": 5197,
+     "other": 80,
+     "total": 6271,
+     "registered": 9926
+    },
+    {
+     "name": "Jasper County",
+     "fips": "241",
+     "dem": 2702,
+     "rep": 12842,
+     "other": 201,
+     "total": 15745,
+     "registered": 24583
+    },
+    {
+     "name": "Jeff Davis County",
+     "fips": "243",
+     "dem": 447,
+     "rep": 671,
+     "other": 37,
+     "total": 1155,
+     "registered": 1568
+    },
+    {
+     "name": "Jefferson County",
+     "fips": "245",
+     "dem": 39643,
+     "rep": 43888,
+     "other": 1400,
+     "total": 84931,
+     "registered": 148252
+    },
+    {
+     "name": "Jim Hogg County",
+     "fips": "247",
+     "dem": 917,
+     "rep": 586,
+     "other": 16,
+     "total": 1519,
+     "registered": 3542
+    },
+    {
+     "name": "Jim Wells County",
+     "fips": "249",
+     "dem": 5895,
+     "rep": 6773,
+     "other": 292,
+     "total": 12960,
+     "registered": 26492
+    },
+    {
+     "name": "Johnson County",
+     "fips": "251",
+     "dem": 20935,
+     "rep": 57382,
+     "other": 1993,
+     "total": 80310,
+     "registered": 129474
+    },
+    {
+     "name": "Jones County",
+     "fips": "253",
+     "dem": 1039,
+     "rep": 5729,
+     "other": 133,
+     "total": 6901,
+     "registered": 10904
+    },
+    {
+     "name": "Karnes County",
+     "fips": "255",
+     "dem": 1175,
+     "rep": 3743,
+     "other": 92,
+     "total": 5010,
+     "registered": 8478
+    },
+    {
+     "name": "Kaufman County",
+     "fips": "257",
+     "dem": 26235,
+     "rep": 41177,
+     "other": 1405,
+     "total": 68817,
+     "registered": 108967
+    },
+    {
+     "name": "Kendall County",
+     "fips": "259",
+     "dem": 6666,
+     "rep": 22068,
+     "other": 543,
+     "total": 29277,
+     "registered": 39045
+    },
+    {
+     "name": "Kenedy County",
+     "fips": "261",
+     "dem": 48,
+     "rep": 92,
+     "other": 4,
+     "total": 144,
+     "registered": 269
+    },
+    {
+     "name": "Kent County",
+     "fips": "263",
+     "dem": 58,
+     "rep": 383,
+     "other": 7,
+     "total": 448,
+     "registered": 600
+    },
+    {
+     "name": "Kerr County",
+     "fips": "265",
+     "dem": 6672,
+     "rep": 20840,
+     "other": 610,
+     "total": 28122,
+     "registered": 40320
+    },
+    {
+     "name": "Kimble County",
+     "fips": "267",
+     "dem": 298,
+     "rep": 2039,
+     "other": 42,
+     "total": 2379,
+     "registered": 3332
+    },
+    {
+     "name": "King County",
+     "fips": "269",
+     "dem": 5,
+     "rep": 129,
+     "other": 0,
+     "total": 134,
+     "registered": 165
+    },
+    {
+     "name": "Kinney County",
+     "fips": "271",
+     "dem": 390,
+     "rep": 969,
+     "other": 26,
+     "total": 1385,
+     "registered": 2166
+    },
+    {
+     "name": "Kleberg County",
+     "fips": "273",
+     "dem": 4621,
+     "rep": 5049,
+     "other": 225,
+     "total": 9895,
+     "registered": 18832
+    },
+    {
+     "name": "Knox County",
+     "fips": "275",
+     "dem": 249,
+     "rep": 1096,
+     "other": 19,
+     "total": 1364,
+     "registered": 2230
+    },
+    {
+     "name": "La Salle County",
+     "fips": "283",
+     "dem": 956,
+     "rep": 1088,
+     "other": 68,
+     "total": 2112,
+     "registered": 4217
+    },
+    {
+     "name": "Lamar County",
+     "fips": "277",
+     "dem": 4344,
+     "rep": 16454,
+     "other": 308,
+     "total": 21106,
+     "registered": 33100
+    },
+    {
+     "name": "Lamb County",
+     "fips": "279",
+     "dem": 729,
+     "rep": 3285,
+     "other": 97,
+     "total": 4111,
+     "registered": 7891
+    },
+    {
+     "name": "Lampasas County",
+     "fips": "281",
+     "dem": 2314,
+     "rep": 8606,
+     "other": 263,
+     "total": 11183,
+     "registered": 16955
+    },
+    {
+     "name": "Lavaca County",
+     "fips": "285",
+     "dem": 1378,
+     "rep": 8915,
+     "other": 125,
+     "total": 10418,
+     "registered": 14442
+    },
+    {
+     "name": "Lee County",
+     "fips": "287",
+     "dem": 1719,
+     "rep": 6505,
+     "other": 138,
+     "total": 8362,
+     "registered": 12246
+    },
+    {
+     "name": "Leon County",
+     "fips": "289",
+     "dem": 1115,
+     "rep": 7734,
+     "other": 159,
+     "total": 9008,
+     "registered": 12722
+    },
+    {
+     "name": "Liberty County",
+     "fips": "291",
+     "dem": 6429,
+     "rep": 23983,
+     "other": 651,
+     "total": 31063,
+     "registered": 54839
+    },
+    {
+     "name": "Limestone County",
+     "fips": "293",
+     "dem": 2045,
+     "rep": 6821,
+     "other": 143,
+     "total": 9009,
+     "registered": 14465
+    },
+    {
+     "name": "Lipscomb County",
+     "fips": "295",
+     "dem": 131,
+     "rep": 1094,
+     "other": 23,
+     "total": 1248,
+     "registered": 1815
+    },
+    {
+     "name": "Live Oak County",
+     "fips": "297",
+     "dem": 822,
+     "rep": 4165,
+     "other": 75,
+     "total": 5062,
+     "registered": 7843
+    },
+    {
+     "name": "Llano County",
+     "fips": "299",
+     "dem": 2677,
+     "rep": 10698,
+     "other": 248,
+     "total": 13623,
+     "registered": 18457
+    },
+    {
+     "name": "Loving County",
+     "fips": "301",
+     "dem": 17,
+     "rep": 75,
+     "other": 3,
+     "total": 95,
+     "registered": 128
+    },
+    {
+     "name": "Lubbock County",
+     "fips": "303",
+     "dem": 37560,
+     "rep": 83643,
+     "other": 3266,
+     "total": 124469,
+     "registered": 197319
+    },
+    {
+     "name": "Lynn County",
+     "fips": "305",
+     "dem": 363,
+     "rep": 2113,
+     "other": 43,
+     "total": 2519,
+     "registered": 4383
+    },
+    {
+     "name": "Madison County",
+     "fips": "313",
+     "dem": 1012,
+     "rep": 4336,
+     "other": 95,
+     "total": 5443,
+     "registered": 8468
+    },
+    {
+     "name": "Marion County",
+     "fips": "315",
+     "dem": 1101,
+     "rep": 3509,
+     "other": 84,
+     "total": 4694,
+     "registered": 7845
+    },
+    {
+     "name": "Martin County",
+     "fips": "317",
+     "dem": 264,
+     "rep": 1756,
+     "other": 47,
+     "total": 2067,
+     "registered": 3510
+    },
+    {
+     "name": "Mason County",
+     "fips": "319",
+     "dem": 441,
+     "rep": 2027,
+     "other": 39,
+     "total": 2507,
+     "registered": 3271
+    },
+    {
+     "name": "Matagorda County",
+     "fips": "321",
+     "dem": 3486,
+     "rep": 9482,
+     "other": 241,
+     "total": 13209,
+     "registered": 22465
+    },
+    {
+     "name": "Maverick County",
+     "fips": "323",
+     "dem": 6859,
+     "rep": 7287,
+     "other": 586,
+     "total": 14732,
+     "registered": 35995
+    },
+    {
+     "name": "McCulloch County",
+     "fips": "307",
+     "dem": 497,
+     "rep": 2938,
+     "other": 63,
+     "total": 3498,
+     "registered": 5432
+    },
+    {
+     "name": "McLennan County",
+     "fips": "309",
+     "dem": 35632,
+     "rep": 62054,
+     "other": 2091,
+     "total": 99777,
+     "registered": 160108
+    },
+    {
+     "name": "McMullen County",
+     "fips": "311",
+     "dem": 48,
+     "rep": 423,
+     "other": 5,
+     "total": 476,
+     "registered": 655
+    },
+    {
+     "name": "Medina County",
+     "fips": "325",
+     "dem": 7416,
+     "rep": 16508,
+     "other": 533,
+     "total": 24457,
+     "registered": 38799
+    },
+    {
+     "name": "Menard County",
+     "fips": "327",
+     "dem": 194,
+     "rep": 824,
+     "other": 18,
+     "total": 1036,
+     "registered": 1517
+    },
+    {
+     "name": "Midland County",
+     "fips": "329",
+     "dem": 11866,
+     "rep": 45032,
+     "other": 1284,
+     "total": 58182,
+     "registered": 99237
+    },
+    {
+     "name": "Milam County",
+     "fips": "331",
+     "dem": 2462,
+     "rep": 8347,
+     "other": 227,
+     "total": 11036,
+     "registered": 17202
+    },
+    {
+     "name": "Mills County",
+     "fips": "333",
+     "dem": 344,
+     "rep": 2343,
+     "other": 43,
+     "total": 2730,
+     "registered": 3634
+    },
+    {
+     "name": "Mitchell County",
+     "fips": "335",
+     "dem": 374,
+     "rep": 2059,
+     "other": 40,
+     "total": 2473,
+     "registered": 4513
+    },
+    {
+     "name": "Montague County",
+     "fips": "337",
+     "dem": 1353,
+     "rep": 9489,
+     "other": 182,
+     "total": 11024,
+     "registered": 15644
+    },
+    {
+     "name": "Montgomery County",
+     "fips": "339",
+     "dem": 86879,
+     "rep": 213797,
+     "other": 5841,
+     "total": 306517,
+     "registered": 456302
+    },
+    {
+     "name": "Moore County",
+     "fips": "341",
+     "dem": 954,
+     "rep": 4186,
+     "other": 108,
+     "total": 5248,
+     "registered": 10118
+    },
+    {
+     "name": "Morris County",
+     "fips": "343",
+     "dem": 1353,
+     "rep": 3958,
+     "other": 79,
+     "total": 5390,
+     "registered": 8957
+    },
+    {
+     "name": "Motley County",
+     "fips": "345",
+     "dem": 41,
+     "rep": 592,
+     "other": 9,
+     "total": 642,
+     "registered": 848
+    },
+    {
+     "name": "Nacogdoches County",
+     "fips": "347",
+     "dem": 7927,
+     "rep": 17072,
+     "other": 478,
+     "total": 25477,
+     "registered": 40291
+    },
+    {
+     "name": "Navarro County",
+     "fips": "349",
+     "dem": 5120,
+     "rep": 14327,
+     "other": 351,
+     "total": 19798,
+     "registered": 33007
+    },
+    {
+     "name": "Newton County",
+     "fips": "351",
+     "dem": 972,
+     "rep": 4650,
+     "other": 69,
+     "total": 5691,
+     "registered": 9506
+    },
+    {
+     "name": "Nolan County",
+     "fips": "353",
+     "dem": 1123,
+     "rep": 3808,
+     "other": 108,
+     "total": 5039,
+     "registered": 8496
+    },
+    {
+     "name": "Nueces County",
+     "fips": "355",
+     "dem": 55433,
+     "rep": 62062,
+     "other": 2964,
+     "total": 120459,
+     "registered": 218446
+    },
+    {
+     "name": "Ochiltree County",
+     "fips": "357",
+     "dem": 280,
+     "rep": 2669,
+     "other": 47,
+     "total": 2996,
+     "registered": 5227
+    },
+    {
+     "name": "Oldham County",
+     "fips": "359",
+     "dem": 91,
+     "rep": 862,
+     "other": 8,
+     "total": 961,
+     "registered": 1342
+    },
+    {
+     "name": "Orange County",
+     "fips": "361",
+     "dem": 6285,
+     "rep": 29050,
+     "other": 618,
+     "total": 35953,
+     "registered": 56218
+    },
+    {
+     "name": "Palo Pinto County",
+     "fips": "363",
+     "dem": 2355,
+     "rep": 10611,
+     "other": 277,
+     "total": 13243,
+     "registered": 20441
+    },
+    {
+     "name": "Panola County",
+     "fips": "365",
+     "dem": 1935,
+     "rep": 9281,
+     "other": 145,
+     "total": 11361,
+     "registered": 17857
+    },
+    {
+     "name": "Parker County",
+     "fips": "367",
+     "dem": 16349,
+     "rep": 72477,
+     "other": 1900,
+     "total": 90726,
+     "registered": 127941
+    },
+    {
+     "name": "Parmer County",
+     "fips": "369",
+     "dem": 374,
+     "rep": 2060,
+     "other": 40,
+     "total": 2474,
+     "registered": 4561
+    },
+    {
+     "name": "Pecos County",
+     "fips": "371",
+     "dem": 1206,
+     "rep": 2817,
+     "other": 119,
+     "total": 4142,
+     "registered": 8370
+    },
+    {
+     "name": "Polk County",
+     "fips": "373",
+     "dem": 5106,
+     "rep": 18596,
+     "other": 441,
+     "total": 24143,
+     "registered": 44570
+    },
+    {
+     "name": "Potter County",
+     "fips": "375",
+     "dem": 8933,
+     "rep": 22109,
+     "other": 848,
+     "total": 31890,
+     "registered": 60062
+    },
+    {
+     "name": "Presidio County",
+     "fips": "377",
+     "dem": 1247,
+     "rep": 651,
+     "other": 40,
+     "total": 1938,
+     "registered": 4448
+    },
+    {
+     "name": "Rains County",
+     "fips": "379",
+     "dem": 951,
+     "rep": 5450,
+     "other": 127,
+     "total": 6528,
+     "registered": 9383
+    },
+    {
+     "name": "Randall County",
+     "fips": "381",
+     "dem": 13596,
+     "rep": 51991,
+     "other": 1302,
+     "total": 66889,
+     "registered": 99825
+    },
+    {
+     "name": "Reagan County",
+     "fips": "383",
+     "dem": 156,
+     "rep": 764,
+     "other": 16,
+     "total": 936,
+     "registered": 1799
+    },
+    {
+     "name": "Real County",
+     "fips": "385",
+     "dem": 336,
+     "rep": 1574,
+     "other": 39,
+     "total": 1949,
+     "registered": 2704
+    },
+    {
+     "name": "Red River County",
+     "fips": "387",
+     "dem": 1148,
+     "rep": 4498,
+     "other": 91,
+     "total": 5737,
+     "registered": 8780
+    },
+    {
+     "name": "Reeves County",
+     "fips": "389",
+     "dem": 1142,
+     "rep": 2034,
+     "other": 112,
+     "total": 3288,
+     "registered": 7938
+    },
+    {
+     "name": "Refugio County",
+     "fips": "391",
+     "dem": 958,
+     "rep": 2004,
+     "other": 69,
+     "total": 3031,
+     "registered": 4961
+    },
+    {
+     "name": "Roberts County",
+     "fips": "393",
+     "dem": 20,
+     "rep": 542,
+     "other": 9,
+     "total": 571,
+     "registered": 725
+    },
+    {
+     "name": "Robertson County",
+     "fips": "395",
+     "dem": 2006,
+     "rep": 5982,
+     "other": 136,
+     "total": 8124,
+     "registered": 12615
+    },
+    {
+     "name": "Rockwall County",
+     "fips": "397",
+     "dem": 19466,
+     "rep": 41726,
+     "other": 1127,
+     "total": 62319,
+     "registered": 88394
+    },
+    {
+     "name": "Runnels County",
+     "fips": "399",
+     "dem": 525,
+     "rep": 3430,
+     "other": 72,
+     "total": 4027,
+     "registered": 6825
+    },
+    {
+     "name": "Rusk County",
+     "fips": "401",
+     "dem": 4488,
+     "rep": 16646,
+     "other": 356,
+     "total": 21490,
+     "registered": 34420
+    },
+    {
+     "name": "Sabine County",
+     "fips": "403",
+     "dem": 612,
+     "rep": 4864,
+     "other": 64,
+     "total": 5540,
+     "registered": 8510
+    },
+    {
+     "name": "San Augustine County",
+     "fips": "405",
+     "dem": 808,
+     "rep": 2834,
+     "other": 65,
+     "total": 3707,
+     "registered": 6021
+    },
+    {
+     "name": "San Jacinto County",
+     "fips": "407",
+     "dem": 2338,
+     "rep": 10118,
+     "other": 254,
+     "total": 12710,
+     "registered": 20442
+    },
+    {
+     "name": "San Patricio County",
+     "fips": "409",
+     "dem": 8578,
+     "rep": 16116,
+     "other": 627,
+     "total": 25321,
+     "registered": 45567
+    },
+    {
+     "name": "San Saba County",
+     "fips": "411",
+     "dem": 333,
+     "rep": 2314,
+     "other": 42,
+     "total": 2689,
+     "registered": 3790
+    },
+    {
+     "name": "Schleicher County",
+     "fips": "413",
+     "dem": 205,
+     "rep": 872,
+     "other": 21,
+     "total": 1098,
+     "registered": 1724
+    },
+    {
+     "name": "Scurry County",
+     "fips": "415",
+     "dem": 811,
+     "rep": 4683,
+     "other": 137,
+     "total": 5631,
+     "registered": 9440
+    },
+    {
+     "name": "Shackelford County",
+     "fips": "417",
+     "dem": 173,
+     "rep": 1520,
+     "other": 20,
+     "total": 1713,
+     "registered": 2447
+    },
+    {
+     "name": "Shelby County",
+     "fips": "419",
+     "dem": 1756,
+     "rep": 8022,
+     "other": 98,
+     "total": 9876,
+     "registered": 16361
+    },
+    {
+     "name": "Sherman County",
+     "fips": "421",
+     "dem": 82,
+     "rep": 791,
+     "other": 14,
+     "total": 887,
+     "registered": 1467
+    },
+    {
+     "name": "Smith County",
+     "fips": "423",
+     "dem": 28971,
+     "rep": 72205,
+     "other": 2052,
+     "total": 103228,
+     "registered": 162599
+    },
+    {
+     "name": "Somervell County",
+     "fips": "425",
+     "dem": 859,
+     "rep": 4298,
+     "other": 119,
+     "total": 5276,
+     "registered": 7429
+    },
+    {
+     "name": "Starr County",
+     "fips": "427",
+     "dem": 6745,
+     "rep": 7081,
+     "other": 356,
+     "total": 14182,
+     "registered": 36371
+    },
+    {
+     "name": "Stephens County",
+     "fips": "429",
+     "dem": 450,
+     "rep": 3216,
+     "other": 61,
+     "total": 3727,
+     "registered": 5852
+    },
+    {
+     "name": "Sterling County",
+     "fips": "431",
+     "dem": 56,
+     "rep": 553,
+     "other": 15,
+     "total": 624,
+     "registered": 896
+    },
+    {
+     "name": "Stonewall County",
+     "fips": "433",
+     "dem": 118,
+     "rep": 580,
+     "other": 11,
+     "total": 709,
+     "registered": 969
+    },
+    {
+     "name": "Sutton County",
+     "fips": "435",
+     "dem": 239,
+     "rep": 1129,
+     "other": 21,
+     "total": 1389,
+     "registered": 2343
+    },
+    {
+     "name": "Swisher County",
+     "fips": "437",
+     "dem": 440,
+     "rep": 1744,
+     "other": 49,
+     "total": 2233,
+     "registered": 3920
+    },
+    {
+     "name": "Tarrant County",
+     "fips": "439",
+     "dem": 401742,
+     "rep": 399927,
+     "other": 19804,
+     "total": 821473,
+     "registered": 1314702
+    },
+    {
+     "name": "Taylor County",
+     "fips": "441",
+     "dem": 14479,
+     "rep": 39509,
+     "other": 1264,
+     "total": 55252,
+     "registered": 90170
+    },
+    {
+     "name": "Terrell County",
+     "fips": "443",
+     "dem": 92,
+     "rep": 301,
+     "other": 7,
+     "total": 400,
+     "registered": 631
+    },
+    {
+     "name": "Terry County",
+     "fips": "445",
+     "dem": 609,
+     "rep": 2663,
+     "other": 75,
+     "total": 3347,
+     "registered": 6444
+    },
+    {
+     "name": "Throckmorton County",
+     "fips": "447",
+     "dem": 80,
+     "rep": 801,
+     "other": 9,
+     "total": 890,
+     "registered": 1223
+    },
+    {
+     "name": "Titus County",
+     "fips": "449",
+     "dem": 2386,
+     "rep": 7545,
+     "other": 196,
+     "total": 10127,
+     "registered": 18123
+    },
+    {
+     "name": "Tom Green County",
+     "fips": "451",
+     "dem": 12332,
+     "rep": 31686,
+     "other": 1152,
+     "total": 45170,
+     "registered": 72813
+    },
+    {
+     "name": "Travis County",
+     "fips": "453",
+     "dem": 407198,
+     "rep": 157197,
+     "other": 13889,
+     "total": 578284,
+     "registered": 928472
+    },
+    {
+     "name": "Trinity County",
+     "fips": "455",
+     "dem": 1293,
+     "rep": 5897,
+     "other": 128,
+     "total": 7318,
+     "registered": 12324
+    },
+    {
+     "name": "Tyler County",
+     "fips": "457",
+     "dem": 1343,
+     "rep": 8039,
+     "other": 169,
+     "total": 9551,
+     "registered": 14844
+    },
+    {
+     "name": "Upshur County",
+     "fips": "459",
+     "dem": 2994,
+     "rep": 16451,
+     "other": 394,
+     "total": 19839,
+     "registered": 30459
+    },
+    {
+     "name": "Upton County",
+     "fips": "461",
+     "dem": 164,
+     "rep": 1069,
+     "other": 31,
+     "total": 1264,
+     "registered": 2112
+    },
+    {
+     "name": "Uvalde County",
+     "fips": "463",
+     "dem": 3493,
+     "rep": 5848,
+     "other": 278,
+     "total": 9619,
+     "registered": 17953
+    },
+    {
+     "name": "Val Verde County",
+     "fips": "465",
+     "dem": 5782,
+     "rep": 8071,
+     "other": 440,
+     "total": 14293,
+     "registered": 30227
+    },
+    {
+     "name": "Van Zandt County",
+     "fips": "467",
+     "dem": 3838,
+     "rep": 23626,
+     "other": 463,
+     "total": 27927,
+     "registered": 41641
+    },
+    {
+     "name": "Victoria County",
+     "fips": "469",
+     "dem": 10176,
+     "rep": 24002,
+     "other": 650,
+     "total": 34828,
+     "registered": 58325
+    },
+    {
+     "name": "Walker County",
+     "fips": "471",
+     "dem": 7728,
+     "rep": 16775,
+     "other": 475,
+     "total": 24978,
+     "registered": 39137
+    },
+    {
+     "name": "Waller County",
+     "fips": "473",
+     "dem": 10432,
+     "rep": 16385,
+     "other": 625,
+     "total": 27442,
+     "registered": 44677
+    },
+    {
+     "name": "Ward County",
+     "fips": "475",
+     "dem": 710,
+     "rep": 2931,
+     "other": 86,
+     "total": 3727,
+     "registered": 7068
+    },
+    {
+     "name": "Washington County",
+     "fips": "477",
+     "dem": 4240,
+     "rep": 13586,
+     "other": 314,
+     "total": 18140,
+     "registered": 25890
+    },
+    {
+     "name": "Webb County",
+     "fips": "479",
+     "dem": 33794,
+     "rep": 28135,
+     "other": 1808,
+     "total": 63737,
+     "registered": 148187
+    },
+    {
+     "name": "Wharton County",
+     "fips": "481",
+     "dem": 4150,
+     "rep": 11915,
+     "other": 258,
+     "total": 16323,
+     "registered": 26363
+    },
+    {
+     "name": "Wheeler County",
+     "fips": "483",
+     "dem": 192,
+     "rep": 2025,
+     "other": 36,
+     "total": 2253,
+     "registered": 3406
+    },
+    {
+     "name": "Wichita County",
+     "fips": "485",
+     "dem": 12545,
+     "rep": 30711,
+     "other": 1001,
+     "total": 44257,
+     "registered": 79922
+    },
+    {
+     "name": "Wilbarger County",
+     "fips": "487",
+     "dem": 926,
+     "rep": 3419,
+     "other": 88,
+     "total": 4433,
+     "registered": 8144
+    },
+    {
+     "name": "Willacy County",
+     "fips": "489",
+     "dem": 2892,
+     "rep": 2365,
+     "other": 158,
+     "total": 5415,
+     "registered": 11694
+    },
+    {
+     "name": "Williamson County",
+     "fips": "491",
+     "dem": 151076,
+     "rep": 146451,
+     "other": 8409,
+     "total": 305936,
+     "registered": 448434
+    },
+    {
+     "name": "Wilson County",
+     "fips": "493",
+     "dem": 6802,
+     "rep": 19783,
+     "other": 544,
+     "total": 27129,
+     "registered": 39161
+    },
+    {
+     "name": "Winkler County",
+     "fips": "495",
+     "dem": 303,
+     "rep": 1560,
+     "other": 28,
+     "total": 1891,
+     "registered": 4081
+    },
+    {
+     "name": "Wise County",
+     "fips": "497",
+     "dem": 6350,
+     "rep": 31060,
+     "other": 730,
+     "total": 38140,
+     "registered": 56123
+    },
+    {
+     "name": "Wood County",
+     "fips": "499",
+     "dem": 3757,
+     "rep": 20129,
+     "other": 438,
+     "total": 24324,
+     "registered": 35632
+    },
+    {
+     "name": "Yoakum County",
+     "fips": "501",
+     "dem": 357,
+     "rep": 1928,
+     "other": 56,
+     "total": 2341,
+     "registered": 4305
+    },
+    {
+     "name": "Young County",
+     "fips": "503",
+     "dem": 1063,
+     "rep": 7088,
+     "other": 120,
+     "total": 8271,
+     "registered": 12309
+    },
+    {
+     "name": "Zapata County",
+     "fips": "505",
+     "dem": 1957,
+     "rep": 2197,
+     "other": 111,
+     "total": 4265,
+     "registered": 8204
+    },
+    {
+     "name": "Zavala County",
+     "fips": "507",
+     "dem": 1994,
+     "rep": 1165,
+     "other": 108,
+     "total": 3267,
+     "registered": 7821
+    }
+   ]
+  },
+  {
+   "race": "tx-sen",
+   "year": 2018,
+   "label": "2018 U.S. Senate (Cruz vs O'Rourke)",
+   "sourceUrl": "https://ted.capitol.texas.gov/api/Offices/456/2/vtd",
+   "candidates": [
+    {
+     "name": "Cruz",
+     "party": "R",
+     "votes": 4259630,
+     "share": 0.5089665349332521
+    },
+    {
+     "name": "O'Rourke",
+     "party": "D",
+     "votes": 4044073,
+     "share": 0.4832104717609561
+    },
+    {
+     "name": "Dikeman",
+     "party": "L",
+     "votes": 65472,
+     "share": 0.00782299330579179
+    }
+   ],
+   "totalVotes": 8369175,
+   "marginDR": -2.58,
+   "registered": null,
+   "units": [
+    {
+     "name": "Anderson County",
+     "fips": "001",
+     "dem": 3307,
+     "rep": 11335,
+     "other": 94,
+     "total": 14736,
+     "registered": null
+    },
+    {
+     "name": "Andrews County",
+     "fips": "003",
+     "dem": 776,
+     "rep": 3338,
+     "other": 17,
+     "total": 4131,
+     "registered": null
+    },
+    {
+     "name": "Angelina County",
+     "fips": "005",
+     "dem": 7130,
+     "rep": 19166,
+     "other": 153,
+     "total": 26449,
+     "registered": null
+    },
+    {
+     "name": "Aransas County",
+     "fips": "007",
+     "dem": 2247,
+     "rep": 6677,
+     "other": 56,
+     "total": 8980,
+     "registered": null
+    },
+    {
+     "name": "Archer County",
+     "fips": "009",
+     "dem": 376,
+     "rep": 3208,
+     "other": 18,
+     "total": 3602,
+     "registered": null
+    },
+    {
+     "name": "Armstrong County",
+     "fips": "011",
+     "dem": 74,
+     "rep": 819,
+     "other": 6,
+     "total": 899,
+     "registered": null
+    },
+    {
+     "name": "Atascosa County",
+     "fips": "013",
+     "dem": 4332,
+     "rep": 7753,
+     "other": 119,
+     "total": 12204,
+     "registered": null
+    },
+    {
+     "name": "Austin County",
+     "fips": "015",
+     "dem": 2241,
+     "rep": 8722,
+     "other": 84,
+     "total": 11047,
+     "registered": null
+    },
+    {
+     "name": "Bailey County",
+     "fips": "017",
+     "dem": 405,
+     "rep": 1202,
+     "other": 7,
+     "total": 1614,
+     "registered": null
+    },
+    {
+     "name": "Bandera County",
+     "fips": "019",
+     "dem": 1865,
+     "rep": 7643,
+     "other": 76,
+     "total": 9584,
+     "registered": null
+    },
+    {
+     "name": "Bastrop County",
+     "fips": "021",
+     "dem": 12082,
+     "rep": 15067,
+     "other": 312,
+     "total": 27461,
+     "registered": null
+    },
+    {
+     "name": "Baylor County",
+     "fips": "023",
+     "dem": 156,
+     "rep": 1072,
+     "other": 9,
+     "total": 1237,
+     "registered": null
+    },
+    {
+     "name": "Bee County",
+     "fips": "025",
+     "dem": 2811,
+     "rep": 4342,
+     "other": 64,
+     "total": 7217,
+     "registered": null
+    },
+    {
+     "name": "Bell County",
+     "fips": "027",
+     "dem": 38417,
+     "rep": 47437,
+     "other": 723,
+     "total": 86577,
+     "registered": null
+    },
+    {
+     "name": "Bexar County",
+     "fips": "029",
+     "dem": 326121,
+     "rep": 217204,
+     "other": 5018,
+     "total": 548343,
+     "registered": null
+    },
+    {
+     "name": "Blanco County",
+     "fips": "031",
+     "dem": 1567,
+     "rep": 4180,
+     "other": 57,
+     "total": 5804,
+     "registered": null
+    },
+    {
+     "name": "Borden County",
+     "fips": "033",
+     "dem": 22,
+     "rep": 320,
+     "other": 1,
+     "total": 343,
+     "registered": null
+    },
+    {
+     "name": "Bosque County",
+     "fips": "035",
+     "dem": 1374,
+     "rep": 5718,
+     "other": 63,
+     "total": 7155,
+     "registered": null
+    },
+    {
+     "name": "Bowie County",
+     "fips": "037",
+     "dem": 7960,
+     "rep": 20131,
+     "other": 182,
+     "total": 28273,
+     "registered": null
+    },
+    {
+     "name": "Brazoria County",
+     "fips": "039",
+     "dem": 45228,
+     "rep": 65693,
+     "other": 832,
+     "total": 111753,
+     "registered": null
+    },
+    {
+     "name": "Brazos County",
+     "fips": "041",
+     "dem": 27876,
+     "rep": 35971,
+     "other": 640,
+     "total": 64487,
+     "registered": null
+    },
+    {
+     "name": "Brewster County",
+     "fips": "043",
+     "dem": 2147,
+     "rep": 1879,
+     "other": 60,
+     "total": 4086,
+     "registered": null
+    },
+    {
+     "name": "Briscoe County",
+     "fips": "045",
+     "dem": 69,
+     "rep": 553,
+     "other": 2,
+     "total": 624,
+     "registered": null
+    },
+    {
+     "name": "Brooks County",
+     "fips": "047",
+     "dem": 1376,
+     "rep": 543,
+     "other": 4,
+     "total": 1923,
+     "registered": null
+    },
+    {
+     "name": "Brown County",
+     "fips": "049",
+     "dem": 1671,
+     "rep": 10391,
+     "other": 71,
+     "total": 12133,
+     "registered": null
+    },
+    {
+     "name": "Burleson County",
+     "fips": "051",
+     "dem": 1427,
+     "rep": 5079,
+     "other": 45,
+     "total": 6551,
+     "registered": null
+    },
+    {
+     "name": "Burnet County",
+     "fips": "053",
+     "dem": 4444,
+     "rep": 13859,
+     "other": 187,
+     "total": 18490,
+     "registered": null
+    },
+    {
+     "name": "Caldwell County",
+     "fips": "055",
+     "dem": 5227,
+     "rep": 6147,
+     "other": 107,
+     "total": 11481,
+     "registered": null
+    },
+    {
+     "name": "Calhoun County",
+     "fips": "057",
+     "dem": 1874,
+     "rep": 4198,
+     "other": 47,
+     "total": 6119,
+     "registered": null
+    },
+    {
+     "name": "Callahan County",
+     "fips": "059",
+     "dem": 610,
+     "rep": 4373,
+     "other": 40,
+     "total": 5023,
+     "registered": null
+    },
+    {
+     "name": "Cameron County",
+     "fips": "061",
+     "dem": 48770,
+     "rep": 28574,
+     "other": 568,
+     "total": 77912,
+     "registered": null
+    },
+    {
+     "name": "Camp County",
+     "fips": "063",
+     "dem": 1119,
+     "rep": 2749,
+     "other": 24,
+     "total": 3892,
+     "registered": null
+    },
+    {
+     "name": "Carson County",
+     "fips": "065",
+     "dem": 244,
+     "rep": 2185,
+     "other": 22,
+     "total": 2451,
+     "registered": null
+    },
+    {
+     "name": "Cass County",
+     "fips": "067",
+     "dem": 2024,
+     "rep": 8148,
+     "other": 45,
+     "total": 10217,
+     "registered": null
+    },
+    {
+     "name": "Castro County",
+     "fips": "069",
+     "dem": 394,
+     "rep": 1219,
+     "other": 10,
+     "total": 1623,
+     "registered": null
+    },
+    {
+     "name": "Chambers County",
+     "fips": "071",
+     "dem": 2926,
+     "rep": 12146,
+     "other": 109,
+     "total": 15181,
+     "registered": null
+    },
+    {
+     "name": "Cherokee County",
+     "fips": "073",
+     "dem": 3200,
+     "rep": 11621,
+     "other": 103,
+     "total": 14924,
+     "registered": null
+    },
+    {
+     "name": "Childress County",
+     "fips": "075",
+     "dem": 234,
+     "rep": 1525,
+     "other": 8,
+     "total": 1767,
+     "registered": null
+    },
+    {
+     "name": "Clay County",
+     "fips": "077",
+     "dem": 547,
+     "rep": 3710,
+     "other": 31,
+     "total": 4288,
+     "registered": null
+    },
+    {
+     "name": "Cochran County",
+     "fips": "079",
+     "dem": 140,
+     "rep": 541,
+     "other": 5,
+     "total": 686,
+     "registered": null
+    },
+    {
+     "name": "Coke County",
+     "fips": "081",
+     "dem": 137,
+     "rep": 1150,
+     "other": 10,
+     "total": 1297,
+     "registered": null
+    },
+    {
+     "name": "Coleman County",
+     "fips": "083",
+     "dem": 351,
+     "rep": 2759,
+     "other": 16,
+     "total": 3126,
+     "registered": null
+    },
+    {
+     "name": "Collin County",
+     "fips": "085",
+     "dem": 165614,
+     "rep": 187425,
+     "other": 2927,
+     "total": 355966,
+     "registered": null
+    },
+    {
+     "name": "Collingsworth County",
+     "fips": "087",
+     "dem": 113,
+     "rep": 814,
+     "other": 5,
+     "total": 932,
+     "registered": null
+    },
+    {
+     "name": "Colorado County",
+     "fips": "089",
+     "dem": 1825,
+     "rep": 5779,
+     "other": 33,
+     "total": 7637,
+     "registered": null
+    },
+    {
+     "name": "Comal County",
+     "fips": "091",
+     "dem": 16830,
+     "rep": 44079,
+     "other": 586,
+     "total": 61495,
+     "registered": null
+    },
+    {
+     "name": "Comanche County",
+     "fips": "093",
+     "dem": 781,
+     "rep": 3800,
+     "other": 30,
+     "total": 4611,
+     "registered": null
+    },
+    {
+     "name": "Concho County",
+     "fips": "095",
+     "dem": 163,
+     "rep": 803,
+     "other": 14,
+     "total": 980,
+     "registered": null
+    },
+    {
+     "name": "Cooke County",
+     "fips": "097",
+     "dem": 2545,
+     "rep": 11868,
+     "other": 111,
+     "total": 14524,
+     "registered": null
+    },
+    {
+     "name": "Coryell County",
+     "fips": "099",
+     "dem": 5067,
+     "rep": 10626,
+     "other": 170,
+     "total": 15863,
+     "registered": null
+    },
+    {
+     "name": "Cottle County",
+     "fips": "101",
+     "dem": 97,
+     "rep": 458,
+     "other": 2,
+     "total": 557,
+     "registered": null
+    },
+    {
+     "name": "Crane County",
+     "fips": "103",
+     "dem": 213,
+     "rep": 836,
+     "other": 6,
+     "total": 1055,
+     "registered": null
+    },
+    {
+     "name": "Crockett County",
+     "fips": "105",
+     "dem": 340,
+     "rep": 928,
+     "other": 8,
+     "total": 1276,
+     "registered": null
+    },
+    {
+     "name": "Crosby County",
+     "fips": "107",
+     "dem": 437,
+     "rep": 978,
+     "other": 7,
+     "total": 1422,
+     "registered": null
+    },
+    {
+     "name": "Culberson County",
+     "fips": "109",
+     "dem": 521,
+     "rep": 297,
+     "other": 9,
+     "total": 827,
+     "registered": null
+    },
+    {
+     "name": "Dallam County",
+     "fips": "111",
+     "dem": 139,
+     "rep": 970,
+     "other": 6,
+     "total": 1115,
+     "registered": null
+    },
+    {
+     "name": "Dallas County",
+     "fips": "113",
+     "dem": 481395,
+     "rep": 241126,
+     "other": 5368,
+     "total": 727889,
+     "registered": null
+    },
+    {
+     "name": "Dawson County",
+     "fips": "115",
+     "dem": 811,
+     "rep": 2192,
+     "other": 12,
+     "total": 3015,
+     "registered": null
+    },
+    {
+     "name": "Deaf Smith County",
+     "fips": "117",
+     "dem": 1067,
+     "rep": 2680,
+     "other": 28,
+     "total": 3775,
+     "registered": null
+    },
+    {
+     "name": "Delta County",
+     "fips": "119",
+     "dem": 354,
+     "rep": 1562,
+     "other": 16,
+     "total": 1932,
+     "registered": null
+    },
+    {
+     "name": "Denton County",
+     "fips": "121",
+     "dem": 134649,
+     "rep": 158744,
+     "other": 2409,
+     "total": 295802,
+     "registered": null
+    },
+    {
+     "name": "DeWitt County",
+     "fips": "123",
+     "dem": 1128,
+     "rep": 4974,
+     "other": 29,
+     "total": 6131,
+     "registered": null
+    },
+    {
+     "name": "Dickens County",
+     "fips": "125",
+     "dem": 113,
+     "rep": 635,
+     "other": 6,
+     "total": 754,
+     "registered": null
+    },
+    {
+     "name": "Dimmit County",
+     "fips": "127",
+     "dem": 2041,
+     "rep": 839,
+     "other": 12,
+     "total": 2892,
+     "registered": null
+    },
+    {
+     "name": "Donley County",
+     "fips": "129",
+     "dem": 161,
+     "rep": 1110,
+     "other": 8,
+     "total": 1279,
+     "registered": null
+    },
+    {
+     "name": "Duval County",
+     "fips": "131",
+     "dem": 2765,
+     "rep": 1328,
+     "other": 18,
+     "total": 4111,
+     "registered": null
+    },
+    {
+     "name": "Eastland County",
+     "fips": "133",
+     "dem": 800,
+     "rep": 5377,
+     "other": 28,
+     "total": 6205,
+     "registered": null
+    },
+    {
+     "name": "Ector County",
+     "fips": "135",
+     "dem": 9230,
+     "rep": 20996,
+     "other": 248,
+     "total": 30474,
+     "registered": null
+    },
+    {
+     "name": "Edwards County",
+     "fips": "137",
+     "dem": 145,
+     "rep": 604,
+     "other": 8,
+     "total": 757,
+     "registered": null
+    },
+    {
+     "name": "El Paso County",
+     "fips": "141",
+     "dem": 151482,
+     "rep": 50943,
+     "other": 1189,
+     "total": 203614,
+     "registered": null
+    },
+    {
+     "name": "Ellis County",
+     "fips": "139",
+     "dem": 19106,
+     "rep": 41022,
+     "other": 461,
+     "total": 60589,
+     "registered": null
+    },
+    {
+     "name": "Erath County",
+     "fips": "143",
+     "dem": 2486,
+     "rep": 10055,
+     "other": 84,
+     "total": 12625,
+     "registered": null
+    },
+    {
+     "name": "Falls County",
+     "fips": "145",
+     "dem": 1445,
+     "rep": 3215,
+     "other": 20,
+     "total": 4680,
+     "registered": null
+    },
+    {
+     "name": "Fannin County",
+     "fips": "147",
+     "dem": 2107,
+     "rep": 8569,
+     "other": 74,
+     "total": 10750,
+     "registered": null
+    },
+    {
+     "name": "Fayette County",
+     "fips": "149",
+     "dem": 2198,
+     "rep": 8227,
+     "other": 53,
+     "total": 10478,
+     "registered": null
+    },
+    {
+     "name": "Fisher County",
+     "fips": "151",
+     "dem": 340,
+     "rep": 1139,
+     "other": 15,
+     "total": 1494,
+     "registered": null
+    },
+    {
+     "name": "Floyd County",
+     "fips": "153",
+     "dem": 476,
+     "rep": 1394,
+     "other": 9,
+     "total": 1879,
+     "registered": null
+    },
+    {
+     "name": "Foard County",
+     "fips": "155",
+     "dem": 113,
+     "rep": 321,
+     "other": 1,
+     "total": 435,
+     "registered": null
+    },
+    {
+     "name": "Fort Bend County",
+     "fips": "157",
+     "dem": 142399,
+     "rep": 111423,
+     "other": 1616,
+     "total": 255438,
+     "registered": null
+    },
+    {
+     "name": "Franklin County",
+     "fips": "159",
+     "dem": 639,
+     "rep": 3300,
+     "other": 35,
+     "total": 3974,
+     "registered": null
+    },
+    {
+     "name": "Freestone County",
+     "fips": "161",
+     "dem": 1279,
+     "rep": 5243,
+     "other": 40,
+     "total": 6562,
+     "registered": null
+    },
+    {
+     "name": "Frio County",
+     "fips": "163",
+     "dem": 2016,
+     "rep": 1636,
+     "other": 28,
+     "total": 3680,
+     "registered": null
+    },
+    {
+     "name": "Gaines County",
+     "fips": "165",
+     "dem": 513,
+     "rep": 3317,
+     "other": 19,
+     "total": 3849,
+     "registered": null
+    },
+    {
+     "name": "Galveston County",
+     "fips": "167",
+     "dem": 45065,
+     "rep": 67641,
+     "other": 916,
+     "total": 113622,
+     "registered": null
+    },
+    {
+     "name": "Garza County",
+     "fips": "169",
+     "dem": 203,
+     "rep": 1068,
+     "other": 16,
+     "total": 1287,
+     "registered": null
+    },
+    {
+     "name": "Gillespie County",
+     "fips": "171",
+     "dem": 2572,
+     "rep": 9890,
+     "other": 81,
+     "total": 12543,
+     "registered": null
+    },
+    {
+     "name": "Glasscock County",
+     "fips": "173",
+     "dem": 37,
+     "rep": 513,
+     "other": 4,
+     "total": 554,
+     "registered": null
+    },
+    {
+     "name": "Goliad County",
+     "fips": "175",
+     "dem": 717,
+     "rep": 2326,
+     "other": 29,
+     "total": 3072,
+     "registered": null
+    },
+    {
+     "name": "Gonzales County",
+     "fips": "177",
+     "dem": 1422,
+     "rep": 4174,
+     "other": 31,
+     "total": 5627,
+     "registered": null
+    },
+    {
+     "name": "Gray County",
+     "fips": "179",
+     "dem": 615,
+     "rep": 5246,
+     "other": 40,
+     "total": 5901,
+     "registered": null
+    },
+    {
+     "name": "Grayson County",
+     "fips": "181",
+     "dem": 11157,
+     "rep": 31655,
+     "other": 332,
+     "total": 43144,
+     "registered": null
+    },
+    {
+     "name": "Gregg County",
+     "fips": "183",
+     "dem": 11133,
+     "rep": 24569,
+     "other": 234,
+     "total": 35936,
+     "registered": null
+    },
+    {
+     "name": "Grimes County",
+     "fips": "185",
+     "dem": 2034,
+     "rep": 6490,
+     "other": 70,
+     "total": 8594,
+     "registered": null
+    },
+    {
+     "name": "Guadalupe County",
+     "fips": "187",
+     "dem": 20079,
+     "rep": 33938,
+     "other": 554,
+     "total": 54571,
+     "registered": null
+    },
+    {
+     "name": "Hale County",
+     "fips": "189",
+     "dem": 1970,
+     "rep": 5360,
+     "other": 62,
+     "total": 7392,
+     "registered": null
+    },
+    {
+     "name": "Hall County",
+     "fips": "191",
+     "dem": 161,
+     "rep": 807,
+     "other": 3,
+     "total": 971,
+     "registered": null
+    },
+    {
+     "name": "Hamilton County",
+     "fips": "193",
+     "dem": 507,
+     "rep": 2795,
+     "other": 28,
+     "total": 3330,
+     "registered": null
+    },
+    {
+     "name": "Hansford County",
+     "fips": "195",
+     "dem": 138,
+     "rep": 1552,
+     "other": 20,
+     "total": 1710,
+     "registered": null
+    },
+    {
+     "name": "Hardeman County",
+     "fips": "197",
+     "dem": 185,
+     "rep": 973,
+     "other": 4,
+     "total": 1162,
+     "registered": null
+    },
+    {
+     "name": "Hardin County",
+     "fips": "199",
+     "dem": 2636,
+     "rep": 17391,
+     "other": 71,
+     "total": 20098,
+     "registered": null
+    },
+    {
+     "name": "Harris County",
+     "fips": "201",
+     "dem": 700200,
+     "rep": 498902,
+     "other": 8652,
+     "total": 1207754,
+     "registered": null
+    },
+    {
+     "name": "Harrison County",
+     "fips": "203",
+     "dem": 6245,
+     "rep": 16226,
+     "other": 122,
+     "total": 22593,
+     "registered": null
+    },
+    {
+     "name": "Hartley County",
+     "fips": "205",
+     "dem": 151,
+     "rep": 1451,
+     "other": 4,
+     "total": 1606,
+     "registered": null
+    },
+    {
+     "name": "Haskell County",
+     "fips": "207",
+     "dem": 302,
+     "rep": 1360,
+     "other": 10,
+     "total": 1672,
+     "registered": null
+    },
+    {
+     "name": "Hays County",
+     "fips": "209",
+     "dem": 45290,
+     "rep": 33098,
+     "other": 852,
+     "total": 79240,
+     "registered": null
+    },
+    {
+     "name": "Hemphill County",
+     "fips": "211",
+     "dem": 157,
+     "rep": 1209,
+     "other": 9,
+     "total": 1375,
+     "registered": null
+    },
+    {
+     "name": "Henderson County",
+     "fips": "213",
+     "dem": 5415,
+     "rep": 20891,
+     "other": 205,
+     "total": 26511,
+     "registered": null
+    },
+    {
+     "name": "Hidalgo County",
+     "fips": "215",
+     "dem": 104416,
+     "rep": 46505,
+     "other": 834,
+     "total": 151755,
+     "registered": null
+    },
+    {
+     "name": "Hill County",
+     "fips": "217",
+     "dem": 2443,
+     "rep": 8927,
+     "other": 63,
+     "total": 11433,
+     "registered": null
+    },
+    {
+     "name": "Hockley County",
+     "fips": "219",
+     "dem": 1211,
+     "rep": 4844,
+     "other": 39,
+     "total": 6094,
+     "registered": null
+    },
+    {
+     "name": "Hood County",
+     "fips": "221",
+     "dem": 4720,
+     "rep": 20090,
+     "other": 195,
+     "total": 25005,
+     "registered": null
+    },
+    {
+     "name": "Hopkins County",
+     "fips": "223",
+     "dem": 2545,
+     "rep": 9306,
+     "other": 69,
+     "total": 11920,
+     "registered": null
+    },
+    {
+     "name": "Houston County",
+     "fips": "225",
+     "dem": 1772,
+     "rep": 5552,
+     "other": 36,
+     "total": 7360,
+     "registered": null
+    },
+    {
+     "name": "Howard County",
+     "fips": "227",
+     "dem": 1693,
+     "rep": 5651,
+     "other": 60,
+     "total": 7404,
+     "registered": null
+    },
+    {
+     "name": "Hudspeth County",
+     "fips": "229",
+     "dem": 404,
+     "rep": 506,
+     "other": 17,
+     "total": 927,
+     "registered": null
+    },
+    {
+     "name": "Hunt County",
+     "fips": "231",
+     "dem": 7151,
+     "rep": 21115,
+     "other": 222,
+     "total": 28488,
+     "registered": null
+    },
+    {
+     "name": "Hutchinson County",
+     "fips": "233",
+     "dem": 753,
+     "rep": 5854,
+     "other": 35,
+     "total": 6642,
+     "registered": null
+    },
+    {
+     "name": "Irion County",
+     "fips": "235",
+     "dem": 96,
+     "rep": 636,
+     "other": 6,
+     "total": 738,
+     "registered": null
+    },
+    {
+     "name": "Jack County",
+     "fips": "237",
+     "dem": 296,
+     "rep": 2498,
+     "other": 19,
+     "total": 2813,
+     "registered": null
+    },
+    {
+     "name": "Jackson County",
+     "fips": "239",
+     "dem": 832,
+     "rep": 3911,
+     "other": 17,
+     "total": 4760,
+     "registered": null
+    },
+    {
+     "name": "Jasper County",
+     "fips": "241",
+     "dem": 2282,
+     "rep": 9504,
+     "other": 47,
+     "total": 11833,
+     "registered": null
+    },
+    {
+     "name": "Jeff Davis County",
+     "fips": "243",
+     "dem": 466,
+     "rep": 683,
+     "other": 28,
+     "total": 1177,
+     "registered": null
+    },
+    {
+     "name": "Jefferson County",
+     "fips": "245",
+     "dem": 37035,
+     "rep": 36656,
+     "other": 379,
+     "total": 74070,
+     "registered": null
+    },
+    {
+     "name": "Jim Hogg County",
+     "fips": "247",
+     "dem": 1060,
+     "rep": 409,
+     "other": 8,
+     "total": 1477,
+     "registered": null
+    },
+    {
+     "name": "Jim Wells County",
+     "fips": "249",
+     "dem": 5331,
+     "rep": 4520,
+     "other": 49,
+     "total": 9900,
+     "registered": null
+    },
+    {
+     "name": "Johnson County",
+     "fips": "251",
+     "dem": 12211,
+     "rep": 39571,
+     "other": 454,
+     "total": 52236,
+     "registered": null
+    },
+    {
+     "name": "Jones County",
+     "fips": "253",
+     "dem": 832,
+     "rep": 4115,
+     "other": 37,
+     "total": 4984,
+     "registered": null
+    },
+    {
+     "name": "Karnes County",
+     "fips": "255",
+     "dem": 1203,
+     "rep": 2900,
+     "other": 33,
+     "total": 4136,
+     "registered": null
+    },
+    {
+     "name": "Kaufman County",
+     "fips": "257",
+     "dem": 12002,
+     "rep": 26118,
+     "other": 252,
+     "total": 38372,
+     "registered": null
+    },
+    {
+     "name": "Kendall County",
+     "fips": "259",
+     "dem": 4340,
+     "rep": 15292,
+     "other": 164,
+     "total": 19796,
+     "registered": null
+    },
+    {
+     "name": "Kenedy County",
+     "fips": "261",
+     "dem": 77,
+     "rep": 100,
+     "other": 3,
+     "total": 180,
+     "registered": null
+    },
+    {
+     "name": "Kent County",
+     "fips": "263",
+     "dem": 44,
+     "rep": 293,
+     "other": 5,
+     "total": 342,
+     "registered": null
+    },
+    {
+     "name": "Kerr County",
+     "fips": "265",
+     "dem": 5198,
+     "rep": 16822,
+     "other": 185,
+     "total": 22205,
+     "registered": null
+    },
+    {
+     "name": "Kimble County",
+     "fips": "267",
+     "dem": 195,
+     "rep": 1495,
+     "other": 14,
+     "total": 1704,
+     "registered": null
+    },
+    {
+     "name": "King County",
+     "fips": "269",
+     "dem": 6,
+     "rep": 124,
+     "other": 1,
+     "total": 131,
+     "registered": null
+    },
+    {
+     "name": "Kinney County",
+     "fips": "271",
+     "dem": 358,
+     "rep": 827,
+     "other": 14,
+     "total": 1199,
+     "registered": null
+    },
+    {
+     "name": "Kleberg County",
+     "fips": "273",
+     "dem": 4456,
+     "rep": 4081,
+     "other": 59,
+     "total": 8596,
+     "registered": null
+    },
+    {
+     "name": "Knox County",
+     "fips": "275",
+     "dem": 229,
+     "rep": 855,
+     "other": 9,
+     "total": 1093,
+     "registered": null
+    },
+    {
+     "name": "La Salle County",
+     "fips": "283",
+     "dem": 813,
+     "rep": 673,
+     "other": 3,
+     "total": 1489,
+     "registered": null
+    },
+    {
+     "name": "Lamar County",
+     "fips": "277",
+     "dem": 3715,
+     "rep": 12688,
+     "other": 126,
+     "total": 16529,
+     "registered": null
+    },
+    {
+     "name": "Lamb County",
+     "fips": "279",
+     "dem": 699,
+     "rep": 2741,
+     "other": 17,
+     "total": 3457,
+     "registered": null
+    },
+    {
+     "name": "Lampasas County",
+     "fips": "281",
+     "dem": 1569,
+     "rep": 5836,
+     "other": 65,
+     "total": 7470,
+     "registered": null
+    },
+    {
+     "name": "Lavaca County",
+     "fips": "285",
+     "dem": 1019,
+     "rep": 6688,
+     "other": 30,
+     "total": 7737,
+     "registered": null
+    },
+    {
+     "name": "Lee County",
+     "fips": "287",
+     "dem": 1322,
+     "rep": 4487,
+     "other": 38,
+     "total": 5847,
+     "registered": null
+    },
+    {
+     "name": "Leon County",
+     "fips": "289",
+     "dem": 855,
+     "rep": 5711,
+     "other": 23,
+     "total": 6589,
+     "registered": null
+    },
+    {
+     "name": "Liberty County",
+     "fips": "291",
+     "dem": 4421,
+     "rep": 16041,
+     "other": 114,
+     "total": 20576,
+     "registered": null
+    },
+    {
+     "name": "Limestone County",
+     "fips": "293",
+     "dem": 1672,
+     "rep": 5211,
+     "other": 33,
+     "total": 6916,
+     "registered": null
+    },
+    {
+     "name": "Lipscomb County",
+     "fips": "295",
+     "dem": 116,
+     "rep": 942,
+     "other": 9,
+     "total": 1067,
+     "registered": null
+    },
+    {
+     "name": "Live Oak County",
+     "fips": "297",
+     "dem": 602,
+     "rep": 3032,
+     "other": 21,
+     "total": 3655,
+     "registered": null
+    },
+    {
+     "name": "Llano County",
+     "fips": "299",
+     "dem": 2124,
+     "rep": 7954,
+     "other": 76,
+     "total": 10154,
+     "registered": null
+    },
+    {
+     "name": "Loving County",
+     "fips": "301",
+     "dem": 6,
+     "rep": 46,
+     "other": 1,
+     "total": 53,
+     "registered": null
+    },
+    {
+     "name": "Lubbock County",
+     "fips": "303",
+     "dem": 32068,
+     "rep": 58780,
+     "other": 731,
+     "total": 91579,
+     "registered": null
+    },
+    {
+     "name": "Lynn County",
+     "fips": "305",
+     "dem": 323,
+     "rep": 1369,
+     "other": 5,
+     "total": 1697,
+     "registered": null
+    },
+    {
+     "name": "Madison County",
+     "fips": "313",
+     "dem": 780,
+     "rep": 3033,
+     "other": 18,
+     "total": 3831,
+     "registered": null
+    },
+    {
+     "name": "Marion County",
+     "fips": "315",
+     "dem": 1018,
+     "rep": 2448,
+     "other": 31,
+     "total": 3497,
+     "registered": null
+    },
+    {
+     "name": "Martin County",
+     "fips": "317",
+     "dem": 243,
+     "rep": 1297,
+     "other": 14,
+     "total": 1554,
+     "registered": null
+    },
+    {
+     "name": "Mason County",
+     "fips": "319",
+     "dem": 402,
+     "rep": 1560,
+     "other": 5,
+     "total": 1967,
+     "registered": null
+    },
+    {
+     "name": "Matagorda County",
+     "fips": "321",
+     "dem": 3042,
+     "rep": 7326,
+     "other": 78,
+     "total": 10446,
+     "registered": null
+    },
+    {
+     "name": "Maverick County",
+     "fips": "323",
+     "dem": 7727,
+     "rep": 2951,
+     "other": 98,
+     "total": 10776,
+     "registered": null
+    },
+    {
+     "name": "McCulloch County",
+     "fips": "307",
+     "dem": 400,
+     "rep": 2244,
+     "other": 26,
+     "total": 2670,
+     "registered": null
+    },
+    {
+     "name": "McLennan County",
+     "fips": "309",
+     "dem": 28452,
+     "rep": 45855,
+     "other": 568,
+     "total": 74875,
+     "registered": null
+    },
+    {
+     "name": "McMullen County",
+     "fips": "311",
+     "dem": 41,
+     "rep": 387,
+     "other": 2,
+     "total": 430,
+     "registered": null
+    },
+    {
+     "name": "Medina County",
+     "fips": "325",
+     "dem": 4621,
+     "rep": 11444,
+     "other": 114,
+     "total": 16179,
+     "registered": null
+    },
+    {
+     "name": "Menard County",
+     "fips": "327",
+     "dem": 145,
+     "rep": 632,
+     "other": 6,
+     "total": 783,
+     "registered": null
+    },
+    {
+     "name": "Midland County",
+     "fips": "329",
+     "dem": 9723,
+     "rep": 32867,
+     "other": 365,
+     "total": 42955,
+     "registered": null
+    },
+    {
+     "name": "Milam County",
+     "fips": "331",
+     "dem": 1997,
+     "rep": 5922,
+     "other": 68,
+     "total": 7987,
+     "registered": null
+    },
+    {
+     "name": "Mills County",
+     "fips": "333",
+     "dem": 229,
+     "rep": 1764,
+     "other": 11,
+     "total": 2004,
+     "registered": null
+    },
+    {
+     "name": "Mitchell County",
+     "fips": "335",
+     "dem": 323,
+     "rep": 1585,
+     "other": 5,
+     "total": 1913,
+     "registered": null
+    },
+    {
+     "name": "Montague County",
+     "fips": "337",
+     "dem": 941,
+     "rep": 6424,
+     "other": 56,
+     "total": 7421,
+     "registered": null
+    },
+    {
+     "name": "Montgomery County",
+     "fips": "339",
+     "dem": 51268,
+     "rep": 137395,
+     "other": 1433,
+     "total": 190096,
+     "registered": null
+    },
+    {
+     "name": "Moore County",
+     "fips": "341",
+     "dem": 787,
+     "rep": 3248,
+     "other": 25,
+     "total": 4060,
+     "registered": null
+    },
+    {
+     "name": "Morris County",
+     "fips": "343",
+     "dem": 1257,
+     "rep": 2951,
+     "other": 21,
+     "total": 4229,
+     "registered": null
+    },
+    {
+     "name": "Motley County",
+     "fips": "345",
+     "dem": 40,
+     "rep": 483,
+     "other": 4,
+     "total": 527,
+     "registered": null
+    },
+    {
+     "name": "Nacogdoches County",
+     "fips": "347",
+     "dem": 7732,
+     "rep": 13775,
+     "other": 126,
+     "total": 21633,
+     "registered": null
+    },
+    {
+     "name": "Navarro County",
+     "fips": "349",
+     "dem": 3918,
+     "rep": 10391,
+     "other": 107,
+     "total": 14416,
+     "registered": null
+    },
+    {
+     "name": "Newton County",
+     "fips": "351",
+     "dem": 993,
+     "rep": 3660,
+     "other": 23,
+     "total": 4676,
+     "registered": null
+    },
+    {
+     "name": "Nolan County",
+     "fips": "353",
+     "dem": 927,
+     "rep": 3116,
+     "other": 26,
+     "total": 4069,
+     "registered": null
+    },
+    {
+     "name": "Nueces County",
+     "fips": "355",
+     "dem": 47392,
+     "rep": 45956,
+     "other": 719,
+     "total": 94067,
+     "registered": null
+    },
+    {
+     "name": "Ochiltree County",
+     "fips": "357",
+     "dem": 229,
+     "rep": 2159,
+     "other": 25,
+     "total": 2413,
+     "registered": null
+    },
+    {
+     "name": "Oldham County",
+     "fips": "359",
+     "dem": 82,
+     "rep": 732,
+     "other": 2,
+     "total": 816,
+     "registered": null
+    },
+    {
+     "name": "Orange County",
+     "fips": "361",
+     "dem": 5050,
+     "rep": 21164,
+     "other": 118,
+     "total": 26332,
+     "registered": null
+    },
+    {
+     "name": "Palo Pinto County",
+     "fips": "363",
+     "dem": 1837,
+     "rep": 7547,
+     "other": 46,
+     "total": 9430,
+     "registered": null
+    },
+    {
+     "name": "Panola County",
+     "fips": "365",
+     "dem": 1598,
+     "rep": 7120,
+     "other": 31,
+     "total": 8749,
+     "registered": null
+    },
+    {
+     "name": "Parker County",
+     "fips": "367",
+     "dem": 9956,
+     "rep": 44071,
+     "other": 468,
+     "total": 54495,
+     "registered": null
+    },
+    {
+     "name": "Parmer County",
+     "fips": "369",
+     "dem": 372,
+     "rep": 1675,
+     "other": 10,
+     "total": 2057,
+     "registered": null
+    },
+    {
+     "name": "Pecos County",
+     "fips": "371",
+     "dem": 1339,
+     "rep": 2161,
+     "other": 20,
+     "total": 3520,
+     "registered": null
+    },
+    {
+     "name": "Polk County",
+     "fips": "373",
+     "dem": 3850,
+     "rep": 12794,
+     "other": 106,
+     "total": 16750,
+     "registered": null
+    },
+    {
+     "name": "Potter County",
+     "fips": "375",
+     "dem": 7521,
+     "rep": 16689,
+     "other": 214,
+     "total": 24424,
+     "registered": null
+    },
+    {
+     "name": "Presidio County",
+     "fips": "377",
+     "dem": 1220,
+     "rep": 432,
+     "other": 10,
+     "total": 1662,
+     "registered": null
+    },
+    {
+     "name": "Rains County",
+     "fips": "379",
+     "dem": 681,
+     "rep": 3702,
+     "other": 23,
+     "total": 4406,
+     "registered": null
+    },
+    {
+     "name": "Randall County",
+     "fips": "381",
+     "dem": 9613,
+     "rep": 38479,
+     "other": 363,
+     "total": 48455,
+     "registered": null
+    },
+    {
+     "name": "Reagan County",
+     "fips": "383",
+     "dem": 136,
+     "rep": 692,
+     "other": 6,
+     "total": 834,
+     "registered": null
+    },
+    {
+     "name": "Real County",
+     "fips": "385",
+     "dem": 245,
+     "rep": 1311,
+     "other": 8,
+     "total": 1564,
+     "registered": null
+    },
+    {
+     "name": "Red River County",
+     "fips": "387",
+     "dem": 973,
+     "rep": 3427,
+     "other": 18,
+     "total": 4418,
+     "registered": null
+    },
+    {
+     "name": "Reeves County",
+     "fips": "389",
+     "dem": 1252,
+     "rep": 1125,
+     "other": 15,
+     "total": 2392,
+     "registered": null
+    },
+    {
+     "name": "Refugio County",
+     "fips": "391",
+     "dem": 847,
+     "rep": 1636,
+     "other": 9,
+     "total": 2492,
+     "registered": null
+    },
+    {
+     "name": "Roberts County",
+     "fips": "393",
+     "dem": 19,
+     "rep": 441,
+     "other": 0,
+     "total": 460,
+     "registered": null
+    },
+    {
+     "name": "Robertson County",
+     "fips": "395",
+     "dem": 1942,
+     "rep": 4292,
+     "other": 31,
+     "total": 6265,
+     "registered": null
+    },
+    {
+     "name": "Rockwall County",
+     "fips": "397",
+     "dem": 11713,
+     "rep": 26590,
+     "other": 329,
+     "total": 38632,
+     "registered": null
+    },
+    {
+     "name": "Runnels County",
+     "fips": "399",
+     "dem": 385,
+     "rep": 2842,
+     "other": 22,
+     "total": 3249,
+     "registered": null
+    },
+    {
+     "name": "Rusk County",
+     "fips": "401",
+     "dem": 3609,
+     "rep": 12595,
+     "other": 76,
+     "total": 16280,
+     "registered": null
+    },
+    {
+     "name": "Sabine County",
+     "fips": "403",
+     "dem": 496,
+     "rep": 3456,
+     "other": 15,
+     "total": 3967,
+     "registered": null
+    },
+    {
+     "name": "San Augustine County",
+     "fips": "405",
+     "dem": 734,
+     "rep": 2266,
+     "other": 16,
+     "total": 3016,
+     "registered": null
+    },
+    {
+     "name": "San Jacinto County",
+     "fips": "407",
+     "dem": 1785,
+     "rep": 7499,
+     "other": 55,
+     "total": 9339,
+     "registered": null
+    },
+    {
+     "name": "San Patricio County",
+     "fips": "409",
+     "dem": 6777,
+     "rep": 11335,
+     "other": 107,
+     "total": 18219,
+     "registered": null
+    },
+    {
+     "name": "San Saba County",
+     "fips": "411",
+     "dem": 247,
+     "rep": 1811,
+     "other": 11,
+     "total": 2069,
+     "registered": null
+    },
+    {
+     "name": "Schleicher County",
+     "fips": "413",
+     "dem": 209,
+     "rep": 735,
+     "other": 8,
+     "total": 952,
+     "registered": null
+    },
+    {
+     "name": "Scurry County",
+     "fips": "415",
+     "dem": 642,
+     "rep": 3705,
+     "other": 16,
+     "total": 4363,
+     "registered": null
+    },
+    {
+     "name": "Shackelford County",
+     "fips": "417",
+     "dem": 103,
+     "rep": 1174,
+     "other": 4,
+     "total": 1281,
+     "registered": null
+    },
+    {
+     "name": "Shelby County",
+     "fips": "419",
+     "dem": 1521,
+     "rep": 6008,
+     "other": 32,
+     "total": 7561,
+     "registered": null
+    },
+    {
+     "name": "Sherman County",
+     "fips": "421",
+     "dem": 87,
+     "rep": 692,
+     "other": 43,
+     "total": 822,
+     "registered": null
+    },
+    {
+     "name": "Smith County",
+     "fips": "423",
+     "dem": 23182,
+     "rep": 53760,
+     "other": 458,
+     "total": 77400,
+     "registered": null
+    },
+    {
+     "name": "Somervell County",
+     "fips": "425",
+     "dem": 633,
+     "rep": 3032,
+     "other": 25,
+     "total": 3690,
+     "registered": null
+    },
+    {
+     "name": "Starr County",
+     "fips": "427",
+     "dem": 8246,
+     "rep": 2436,
+     "other": 68,
+     "total": 10750,
+     "registered": null
+    },
+    {
+     "name": "Stephens County",
+     "fips": "429",
+     "dem": 324,
+     "rep": 2627,
+     "other": 13,
+     "total": 2964,
+     "registered": null
+    },
+    {
+     "name": "Sterling County",
+     "fips": "431",
+     "dem": 44,
+     "rep": 442,
+     "other": 0,
+     "total": 486,
+     "registered": null
+    },
+    {
+     "name": "Stonewall County",
+     "fips": "433",
+     "dem": 112,
+     "rep": 497,
+     "other": 5,
+     "total": 614,
+     "registered": null
+    },
+    {
+     "name": "Sutton County",
+     "fips": "435",
+     "dem": 265,
+     "rep": 934,
+     "other": 7,
+     "total": 1206,
+     "registered": null
+    },
+    {
+     "name": "Swisher County",
+     "fips": "437",
+     "dem": 420,
+     "rep": 1461,
+     "other": 14,
+     "total": 1895,
+     "registered": null
+    },
+    {
+     "name": "Tarrant County",
+     "fips": "439",
+     "dem": 313497,
+     "rep": 309189,
+     "other": 5208,
+     "total": 627894,
+     "registered": null
+    },
+    {
+     "name": "Taylor County",
+     "fips": "441",
+     "dem": 10489,
+     "rep": 29811,
+     "other": 357,
+     "total": 40657,
+     "registered": null
+    },
+    {
+     "name": "Terrell County",
+     "fips": "443",
+     "dem": 138,
+     "rep": 323,
+     "other": 5,
+     "total": 466,
+     "registered": null
+    },
+    {
+     "name": "Terry County",
+     "fips": "445",
+     "dem": 629,
+     "rep": 2169,
+     "other": 15,
+     "total": 2813,
+     "registered": null
+    },
+    {
+     "name": "Throckmorton County",
+     "fips": "447",
+     "dem": 77,
+     "rep": 617,
+     "other": 9,
+     "total": 703,
+     "registered": null
+    },
+    {
+     "name": "Titus County",
+     "fips": "449",
+     "dem": 2265,
+     "rep": 5685,
+     "other": 55,
+     "total": 8005,
+     "registered": null
+    },
+    {
+     "name": "Tom Green County",
+     "fips": "451",
+     "dem": 9690,
+     "rep": 24648,
+     "other": 292,
+     "total": 34630,
+     "registered": null
+    },
+    {
+     "name": "Travis County",
+     "fips": "453",
+     "dem": 359772,
+     "rep": 119278,
+     "other": 5154,
+     "total": 484204,
+     "registered": null
+    },
+    {
+     "name": "Trinity County",
+     "fips": "455",
+     "dem": 998,
+     "rep": 4146,
+     "other": 31,
+     "total": 5175,
+     "registered": null
+    },
+    {
+     "name": "Tyler County",
+     "fips": "457",
+     "dem": 1185,
+     "rep": 5919,
+     "other": 35,
+     "total": 7139,
+     "registered": null
+    },
+    {
+     "name": "Upshur County",
+     "fips": "459",
+     "dem": 2364,
+     "rep": 11529,
+     "other": 91,
+     "total": 13984,
+     "registered": null
+    },
+    {
+     "name": "Upton County",
+     "fips": "461",
+     "dem": 169,
+     "rep": 854,
+     "other": 8,
+     "total": 1031,
+     "registered": null
+    },
+    {
+     "name": "Uvalde County",
+     "fips": "463",
+     "dem": 3528,
+     "rep": 4348,
+     "other": 59,
+     "total": 7935,
+     "registered": null
+    },
+    {
+     "name": "Val Verde County",
+     "fips": "465",
+     "dem": 5955,
+     "rep": 5345,
+     "other": 105,
+     "total": 11405,
+     "registered": null
+    },
+    {
+     "name": "Van Zandt County",
+     "fips": "467",
+     "dem": 2634,
+     "rep": 15182,
+     "other": 116,
+     "total": 17932,
+     "registered": null
+    },
+    {
+     "name": "Victoria County",
+     "fips": "469",
+     "dem": 8046,
+     "rep": 19005,
+     "other": 157,
+     "total": 27208,
+     "registered": null
+    },
+    {
+     "name": "Walker County",
+     "fips": "471",
+     "dem": 6186,
+     "rep": 11535,
+     "other": 132,
+     "total": 17853,
+     "registered": null
+    },
+    {
+     "name": "Waller County",
+     "fips": "473",
+     "dem": 6335,
+     "rep": 10167,
+     "other": 101,
+     "total": 16603,
+     "registered": null
+    },
+    {
+     "name": "Ward County",
+     "fips": "475",
+     "dem": 800,
+     "rep": 2096,
+     "other": 24,
+     "total": 2920,
+     "registered": null
+    },
+    {
+     "name": "Washington County",
+     "fips": "477",
+     "dem": 3263,
+     "rep": 10134,
+     "other": 95,
+     "total": 13492,
+     "registered": null
+    },
+    {
+     "name": "Webb County",
+     "fips": "479",
+     "dem": 35159,
+     "rep": 13814,
+     "other": 408,
+     "total": 49381,
+     "registered": null
+    },
+    {
+     "name": "Wharton County",
+     "fips": "481",
+     "dem": 3793,
+     "rep": 9094,
+     "other": 55,
+     "total": 12942,
+     "registered": null
+    },
+    {
+     "name": "Wheeler County",
+     "fips": "483",
+     "dem": 125,
+     "rep": 1679,
+     "other": 6,
+     "total": 1810,
+     "registered": null
+    },
+    {
+     "name": "Wichita County",
+     "fips": "485",
+     "dem": 9971,
+     "rep": 23648,
+     "other": 299,
+     "total": 33918,
+     "registered": null
+    },
+    {
+     "name": "Wilbarger County",
+     "fips": "487",
+     "dem": 776,
+     "rep": 2639,
+     "other": 24,
+     "total": 3439,
+     "registered": null
+    },
+    {
+     "name": "Willacy County",
+     "fips": "489",
+     "dem": 2773,
+     "rep": 1527,
+     "other": 23,
+     "total": 4323,
+     "registered": null
+    },
+    {
+     "name": "Williamson County",
+     "fips": "491",
+     "dem": 105850,
+     "rep": 99857,
+     "other": 2514,
+     "total": 208221,
+     "registered": null
+    },
+    {
+     "name": "Wilson County",
+     "fips": "493",
+     "dem": 4567,
+     "rep": 13025,
+     "other": 127,
+     "total": 17719,
+     "registered": null
+    },
+    {
+     "name": "Winkler County",
+     "fips": "495",
+     "dem": 321,
+     "rep": 1123,
+     "other": 11,
+     "total": 1455,
+     "registered": null
+    },
+    {
+     "name": "Wise County",
+     "fips": "497",
+     "dem": 3915,
+     "rep": 19023,
+     "other": 179,
+     "total": 23117,
+     "registered": null
+    },
+    {
+     "name": "Wood County",
+     "fips": "499",
+     "dem": 2635,
+     "rep": 13987,
+     "other": 118,
+     "total": 16740,
+     "registered": null
+    },
+    {
+     "name": "Yoakum County",
+     "fips": "501",
+     "dem": 335,
+     "rep": 1558,
+     "other": 10,
+     "total": 1903,
+     "registered": null
+    },
+    {
+     "name": "Young County",
+     "fips": "503",
+     "dem": 821,
+     "rep": 5543,
+     "other": 41,
+     "total": 6405,
+     "registered": null
+    },
+    {
+     "name": "Zapata County",
+     "fips": "505",
+     "dem": 1392,
+     "rep": 821,
+     "other": 10,
+     "total": 2223,
+     "registered": null
+    },
+    {
+     "name": "Zavala County",
+     "fips": "507",
+     "dem": 2313,
+     "rep": 589,
+     "other": 15,
+     "total": 2917,
+     "registered": null
+    }
+   ]
+  }
+ ]
+}

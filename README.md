@@ -4,8 +4,9 @@ A personal, nonpartisan dashboard for the 2026 U.S. midterms. Next.js 16, TypeSc
 
 - **Chamber control needles** for the House and Senate, read from Polymarket and Kalshi chamber-control contracts, shown separately and as a transparently computed consensus.
 - **Probability history** and a **sortable watchlist** of every tracked market.
+- **Live forecast needles** for VA-05, VA-09 and TX-Sen: counted official returns projected to a final margin with per-unit 2024 baselines and a learned swing, combined with the market consensus frozen at poll close as a prior whose weight fades as expected vote is counted.
 - **Watched races**: VA-05, VA-09 and the Texas Senate race, with counted returns from the Virginia Department of Elections and the Texas Secretary of State, kept visually separate from market prices.
-- **Historical baselines** for VA-05 and VA-09: official 2024 and 2018 results by locality, turnout, boundary changes, and a comparable-geography view for 2018.
+- **Historical baselines** for VA-05 and VA-09: official 2024 and 2018 results by locality, turnout, boundary changes, and a comparable-geography view for 2018. For Texas: 2024 and 2018 U.S. Senate results by county and 2024 registration, from the Texas Legislative Council.
 
 ## How it works
 
@@ -45,7 +46,7 @@ npx serve out-data --cors -l 8787    # serve the generated data locally
 NEXT_PUBLIC_DATA_BASE_URL=http://localhost:8787 npm run dev
 ```
 
-Checks: `npm run typecheck`, `npm run lint`, `npm test`, `npm run check-baselines`, `npm run build`.
+Checks: `npm run typecheck`, `npm run lint`, `npm test`, `npm run check-baselines`, `npm run check-tx-baselines`, `npm run build`.
 
 ## Data sources (all public, no credentials)
 
@@ -57,6 +58,7 @@ Checks: `npm run typecheck`, `npm run lint`, `npm test`, `npm run check-baseline
 | Texas Secretary of State ENR | TX-Sen counted results, county detail, early-voting turnout | `goelect.txelections.civixapps.com/api-ivis-system/...` |
 | historical.elections.virginia.gov | 2024 and 2018 VA-05/VA-09 results by locality and precinct | `api/download_contest/{id}_table.csv` (committed under `data/historical/va/raw`) |
 | elections.virginia.gov registration statistics | registered voters by congressional district, Nov 1 2018/2024/2026 | committed CSVs |
+| Texas Legislative Council (ted.capitol.texas.gov, catalogued at data.capitol.texas.gov) | 2024 and 2018 U.S. Senate results and 2024 registration/turnout by VTD, aggregated to counties | `api/Offices/{election}/{office}/vtd` (committed under `data/historical/tx/raw`) |
 
 The specific contracts are listed in `lib/registry.ts` with their slugs and tickers. Settlement rules differ between venues (Polymarket: seats as elected; Kalshi: media-call consensus or officeholder on 2027-02-01) and are shown in the UI.
 
@@ -77,6 +79,7 @@ The specific contracts are listed in `lib/registry.ts` with their slugs and tick
 - **Boundaries.** 2026 uses the 2021 map (same as 2024). The April 2026 redistricting referendum was voided by the Supreme Court of Virginia on 2026-05-08. 2018 used the 2016 court-ordered map; the comparable-geography set is the localities wholly inside the district under both maps (14 for VA-05, 24 for VA-09). Split localities are excluded from locality comparisons.
 - **Turnout.** Votes in the contest ÷ registered voters (active + inactive) on Nov 1 of that year.
 - **Early vote.** Virginia absentee statistics (returned ballots) and Texas early-voting turnout are shown as pre-election statistics, never as counted votes.
+- **Live forecast.** The final D−R margin is treated as normal. Prior: market consensus P(D) converted to a margin with sd 7 pt (House) / 5 pt (Senate), tracking the market until poll close (`POLL_CLOSE_UTC` in `lib/registry.ts`) and frozen at the last snapshot before it. Returns-only projection: expected vote per unit from 2024 shares × (2024 total × registration growth × 2018/2024 turnout ratio) × a turnout factor learned from completed units; a uniform swing vs 2024 estimated from reported units by inverse-variance weighting (a partial unit's precision scaled by fraction²); outstanding vote projected at unit baseline + swing; variance from swing error, an early-return composition term on the swing (6 pt × (1 − effective fraction)), a shared remainder-skew term (6 pt × share of vote outstanding in partially reported units), unit noise (5 pt at 10k votes, growing for small units), 20% expected-vote uncertainty and a 0.35 pt floor until official. Posterior = precision-weighted combination; the displayed prior weight is the prior’s share of precision. Constants live in `lib/forecast.ts` (`FORECAST`) and are echoed in the UI. The forecast never feeds the chamber needles.
 
 ## Free-tier limits and known constraints
 
@@ -92,11 +95,12 @@ The specific contracts are listed in `lib/registry.ts` with their slugs and tick
 .github/workflows/refresh-data.yml   scheduled + manual data refresh (pushes to `data`)
 .github/workflows/ci.yml             typecheck, lint, tests, baseline check, build
 app/                                 Next.js app router (static export)
-components/                          needle, charts, watchlist, race panels, methodology
-lib/                                 registry, zod schemas, consensus and historical math, polling hook
-pipeline/                            run.ts orchestrator, http.ts, adapters/, history.ts, write.ts
-scripts/                             fetch-historical.ts, build-baselines.ts
+components/                          needle, charts, forecast panel, watchlist, race panels, methodology
+lib/                                 registry, zod schemas, consensus, forecast model, historical math, polling hook
+pipeline/                            run.ts orchestrator, http.ts, adapters/, forecast.ts (prior freeze + model glue), history.ts, write.ts
+scripts/                             fetch-historical.ts, build-baselines.ts, fetch-historical-tx.ts, build-tx-baselines.ts
 data/historical/va/                  raw official CSVs and the generated baselines.json
+data/historical/tx/                  raw TLC VTD CSVs, Census county codes and the generated county baselines.json
 tests/                               vitest suites with recorded fixtures
 ```
 
@@ -106,7 +110,9 @@ tests/                               vitest suites with recorded fixtures
 latest/markets.json    quotes, per-venue estimates, consensus with inputs, flags
 latest/results.json    VA-05, VA-09, TX-Sen counted results, completeness, localities, early-vote stats
 latest/status.json     per-source status, run id/url, window mode, retained files, notes
+latest/forecast.json   live forecast per watched race: posterior P(D), margin ± sd, 80% interval, frozen prior, prior weight, returns-only projection, per-unit expected/counted/projected
 history/markets.json   bounded series [t, polymarket, kalshi, consensus] per subject
+history/forecast.json  bounded series [t, pDem, lo80, hi80, priorWeight, reportedFraction] per race
 vercel.json            disables deployments for this branch
 ```
 

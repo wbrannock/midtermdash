@@ -307,3 +307,133 @@ export const BaselinesSchema = z.object({
   ),
 });
 export type Baselines = z.infer<typeof BaselinesSchema>;
+
+/* ---------------- unit-level baselines (TX counties; bundled on main) ---------------- */
+
+export const UnitBaselineSchema = z.object({
+  name: z.string(),
+  fips: z.string().nullable(),
+  dem: z.number().int().nonnegative(),
+  rep: z.number().int().nonnegative(),
+  other: z.number().int().nonnegative(),
+  total: z.number().int().nonnegative(),
+  registered: z.number().int().nonnegative().nullable(),
+});
+export type UnitBaseline = z.infer<typeof UnitBaselineSchema>;
+
+export const UnitBaselineContestSchema = z.object({
+  race: z.enum(["va-05", "va-09", "tx-sen"]),
+  year: z.number().int(),
+  label: z.string(),
+  sourceUrl: z.string(),
+  candidates: z.array(CandidateResultSchema),
+  totalVotes: z.number().int().nonnegative(),
+  marginDR: nullableNum,
+  registered: z.number().int().nonnegative().nullable(),
+  units: z.array(UnitBaselineSchema),
+});
+export type UnitBaselineContest = z.infer<typeof UnitBaselineContestSchema>;
+
+export const UnitBaselinesSchema = z.object({
+  schemaVersion: z.literal(1),
+  generatedAt: z.string(),
+  unitKind: z.enum(["locality", "county"]),
+  contests: z.array(UnitBaselineContestSchema),
+});
+export type UnitBaselines = z.infer<typeof UnitBaselinesSchema>;
+
+/* ---------------- live forecast ---------------- */
+
+export const ForecastPriorSchema = z.object({
+  /** Market consensus P(D) used as the prior, or null when none was available. */
+  pDem: nullableNum,
+  /** Prior mean and sd of the final D−R margin, in points. */
+  marginMean: z.number(),
+  sigma: z.number().positive(),
+  source: z.enum(["market-consensus", "baseline-fallback"]),
+  /** Snapshot time the prior was taken from. */
+  asOf: z.string().nullable(),
+  /** True once frozen at poll close; false while polls are open and it tracks the market. */
+  locked: z.boolean(),
+  note: z.string().optional(),
+});
+export type ForecastPrior = z.infer<typeof ForecastPriorSchema>;
+
+export const ForecastUnitSchema = z.object({
+  name: z.string(),
+  /** Expected final votes (after turnout adjustment). */
+  expected: z.number().nonnegative(),
+  counted: z.number().int().nonnegative(),
+  /** Counted ÷ expected, capped at 1. */
+  fraction: z.number().min(0).max(1),
+  complete: z.boolean(),
+  /** Baseline D−R margin (points) or null when the unit has no baseline row. */
+  baselineMargin: nullableNum,
+  /** Observed D−R margin (points) in counted votes, null when none. */
+  observedMargin: nullableNum,
+  /** Projected final D−R margin (points). */
+  projectedMargin: z.number(),
+});
+export type ForecastUnit = z.infer<typeof ForecastUnitSchema>;
+
+export const RaceForecastSchema = z.object({
+  id: z.string(),
+  label: z.string(),
+  state: z.enum(["VA", "TX"]),
+  phase: z.enum(["pre-results", "counting", "complete", "official"]),
+  /** Posterior P(Democratic candidate wins). */
+  pDem: z.number().min(0).max(1),
+  /** Posterior mean and sd of the final D−R margin (points), with an 80% interval. */
+  marginMean: z.number(),
+  marginSd: z.number().positive(),
+  interval80: z.object({ lo: z.number(), hi: z.number() }),
+  prior: ForecastPriorSchema,
+  /** Share of posterior precision contributed by the prior (1 = all prior, 0 = all returns). */
+  priorWeight: z.number().min(0).max(1),
+  /** Returns-only projection (no prior), null before any votes are counted. */
+  data: z
+    .object({
+      pDem: z.number().min(0).max(1),
+      marginMean: z.number(),
+      marginSd: z.number().positive(),
+      /** Estimated uniform swing vs the baseline (points) and its sd. */
+      swing: z.number(),
+      swingSd: z.number().positive(),
+    })
+    .nullable(),
+  baseline: z.object({ year: z.number().int(), label: z.string(), marginDR: nullableNum, unitsMatched: z.number().int(), unitsTotal: z.number().int() }),
+  expectedVotes: z.number().nonnegative(),
+  countedVotes: z.number().int().nonnegative(),
+  /** Counted ÷ expected (0–1). */
+  reportedFraction: z.number().min(0).max(1),
+  /** Reporting fraction after down-weighting partial units (0–1); drives how fast the prior fades. */
+  effectiveFraction: z.number().min(0).max(1),
+  /** Multiplier applied to the pre-election expected-vote estimate, learned from fully reported units. */
+  turnoutFactor: z.number().positive(),
+  unitsComplete: z.number().int().nonnegative(),
+  unitsTotal: z.number().int().nonnegative(),
+  units: z.array(ForecastUnitSchema),
+  notes: z.array(z.string()),
+});
+export type RaceForecast = z.infer<typeof RaceForecastSchema>;
+
+export const ForecastSnapshotSchema = z.object({
+  schemaVersion: z.literal(1),
+  generatedAt: z.string(),
+  /** Model version; bump when constants or structure change. */
+  model: z.string(),
+  races: z.array(RaceForecastSchema),
+});
+export type ForecastSnapshot = z.infer<typeof ForecastSnapshotSchema>;
+
+/** [unixSeconds, pDem, margin lo80, margin hi80, priorWeight, reportedFraction] */
+export const ForecastHistoryPointSchema = z.tuple([z.number().int(), z.number(), z.number(), z.number(), z.number(), z.number()]);
+export type ForecastHistoryPoint = z.infer<typeof ForecastHistoryPointSchema>;
+
+export const ForecastHistorySchema = z.object({
+  schemaVersion: z.literal(1),
+  generatedAt: z.string(),
+  columns: z.tuple([z.literal("t"), z.literal("pDem"), z.literal("lo80"), z.literal("hi80"), z.literal("priorWeight"), z.literal("reportedFraction")]),
+  series: z.record(z.string(), z.array(ForecastHistoryPointSchema)),
+});
+export type ForecastHistory = z.infer<typeof ForecastHistorySchema>;

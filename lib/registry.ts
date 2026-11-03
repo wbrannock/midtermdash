@@ -390,3 +390,34 @@ export const ELECTION_NIGHT_WINDOW = {
 };
 
 export const DATA_BRANCH = "data";
+
+/* ------------------------------------------------------------------ */
+/* Live forecast inputs                                                */
+/* ------------------------------------------------------------------ */
+
+/**
+ * When statewide results may begin to post (UTC). The market prior for the
+ * live forecast is frozen at the last snapshot before this instant, so prices
+ * that already react to returns are never fed back in as a "prior".
+ * VA: polls close 7:00 pm ET. TX: 7:00 pm CT for all but the two Mountain-time
+ * counties (El Paso, Hudspeth) which close an hour later; posting begins at 7 pm CT.
+ */
+export const POLL_CLOSE_UTC: Record<RaceId, string> = {
+  "va-05": "2026-11-04T00:00:00Z",
+  "va-09": "2026-11-04T00:00:00Z",
+  "tx-sen": "2026-11-04T01:00:00Z",
+};
+
+/**
+ * Texas statewide returns by voting-tabulation district from the Texas
+ * Legislative Council's election data service (data.capitol.texas.gov).
+ * Public, no key. Aggregated to counties by the first three characters of
+ * CNTYVTD (the county FIPS code within Texas).
+ */
+export const TX_TLC_API = "https://ted.capitol.texas.gov/api/Offices";
+export const TX_HISTORICAL_CONTESTS = [
+  { year: 2024, electionId: 510, officeId: 2, label: "2024 U.S. Senate (Cruz vs Allred)", file: "tx_2024_us_senate_vtd.csv" },
+  { year: 2018, electionId: 456, officeId: 2, label: "2018 U.S. Senate (Cruz vs O'Rourke)", file: "tx_2018_us_senate_vtd.csv" },
+] as const;
+export const TX_VOTER_DATA = { year: 2024, electionId: 510, officeId: 1428, file: "tx_2024_voter_data_vtd.csv" } as const;
+export const TX_COUNTY_CODES_URL = "https://www2.census.gov/geo/docs/reference/codes2020/cou/st48_tx_cou2020.txt";

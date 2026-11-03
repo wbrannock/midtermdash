@@ -1,12 +1,13 @@
 "use client";
 import baselinesJson from "@/data/historical/va/baselines.json";
-import { BaselinesSchema, HistorySnapshotSchema, MarketsSnapshotSchema, ResultsSnapshotSchema, StatusSnapshotSchema } from "@/lib/schema";
+import { BaselinesSchema, ForecastHistorySchema, ForecastSnapshotSchema, HistorySnapshotSchema, MarketsSnapshotSchema, ResultsSnapshotSchema, StatusSnapshotSchema } from "@/lib/schema";
 import { useSnapshot } from "@/lib/useSnapshot";
 import { WATCHED_RACES } from "@/lib/registry";
 import { Section, Empty } from "@/components/common/Section";
 import { Freshness, useNow } from "@/components/common/Freshness";
 import { ChamberCard } from "@/components/needle/ChamberCard";
 import { ProbabilityHistory } from "@/components/charts/ProbabilityHistory";
+import { ForecastPanel } from "@/components/forecast/ForecastPanel";
 import { Watchlist } from "@/components/watchlist/Watchlist";
 import { RacePanel } from "@/components/races/RacePanel";
 import { CoverageGaps, Methodology } from "@/components/common/Methodology";
@@ -18,6 +19,8 @@ export default function Dashboard() {
   const results = useSnapshot("latest/results.json", ResultsSnapshotSchema);
   const status = useSnapshot("latest/status.json", StatusSnapshotSchema);
   const history = useSnapshot("history/markets.json", HistorySnapshotSchema);
+  const forecast = useSnapshot("latest/forecast.json", ForecastSnapshotSchema);
+  const forecastHistory = useSnapshot("history/forecast.json", ForecastHistorySchema);
   const now = useNow();
 
   const subjects = markets.data?.subjects ?? [];
@@ -53,6 +56,15 @@ export default function Dashboard() {
 
       <Section title="Probability history" id="history">
         <ProbabilityHistory history={history.data} subjects={subjects} now={now} />
+      </Section>
+
+      <Section
+        title="Live forecast"
+        id="forecast"
+        lede="Our own needle for the three watched races: counted official returns projected to a final margin, combined with the market consensus frozen at poll close as a prior. The prior's weight is its share of the posterior precision, so it fades as expected vote is counted. Ticks: market prior, returns-only estimate, market now."
+        aside={forecast.data ? `model ${forecast.data.model}` : undefined}
+      >
+        <ForecastPanel forecast={forecast.data} history={forecastHistory.data} subjects={subjects} now={now} />
       </Section>
 
       <Section title="Watchlist" lede="Every tracked market. Sort by any column. Gap is |Polymarket − Kalshi|; 24h Δ is the change in consensus against the snapshot nearest 24 hours ago." id="watchlist">

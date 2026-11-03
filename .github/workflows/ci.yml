@@ -25,4 +25,5 @@ jobs:
       - run: npm run lint
       - run: npm test
       - run: npm run check-baselines
+      - run: npm run check-tx-baselines
       - run: npm run build

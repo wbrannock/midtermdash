@@ -1,5 +1,6 @@
 import type { StatusSnapshot } from "@/lib/schema";
 import { THRESHOLDS } from "@/lib/consensus";
+import { FORECAST } from "@/lib/forecast";
 import { ELECTION_NIGHT_WINDOW } from "@/lib/registry";
 import { Card, Details } from "./Section";
 import { FLAG_META } from "./Flag";
@@ -27,6 +28,9 @@ export function CoverageGaps({ status }: { status: StatusSnapshot | null }) {
         <li>
           <span className="text-fg">VA-09 markets are thin.</span> Kalshi open interest on the VA-09 contracts is a few thousand dollars; its prices are flagged and should be read as indicative.
         </li>
+        <li>
+          <span className="text-fg">The live forecast is a model, not a call.</span> Its expected-vote estimates come from 2024 unit shares scaled to a midterm electorate, its unit noise and early-return bias terms are fixed judgment constants, and it is not calibrated on prior Virginia or Texas election nights. It is designed to be honest about uncertainty, not to beat the networks to a call.
+        </li>
         {failing.length ? (
           <li className="text-serious">
             Sources failing in the latest run: {failing.map(([k, s]) => `${k} (${s.error})`).join("; ")}. Affected values show their last valid snapshot.
@@ -49,7 +53,19 @@ export function Methodology() {
           <li>Virginia: Department of Elections election-night reporting API (contest summary, per-locality breakdown with precinct reporting status, registration by locality) and the absentee CSV it publishes. Public, no key.</li>
           <li>Texas: Secretary of State election-night backend (statewide Federal block, county detail with precincts reporting and registered voters) and the early-voting turnout files. Public, no key.</li>
           <li>Historical: historical.elections.virginia.gov contest CSVs (2024 and 2018, locality and precinct rows) and registrant counts by congressional district for Nov 1 of 2018, 2024 and 2026. Downloaded once and committed with their URLs.</li>
+          <li>Texas historical: Texas Legislative Council returns by voting-tabulation district for the 2024 and 2018 U.S. Senate races and 2024 registration and turnout (ted.capitol.texas.gov, catalogued at data.capitol.texas.gov), aggregated to counties with Census county codes. Public, no key, committed.</li>
         </ul>
+      </Details>
+      <Details summary="Live forecast needle: prior, projection and how the prior fades">
+        <p>
+          The forecast treats the final D−R margin as a normal quantity and combines two independent estimates by precision. The <span className="text-fg">prior</span> is the market consensus P(D), converted to a margin with sd {FORECAST.priorSigmaPts.house} points for House races and {FORECAST.priorSigmaPts.senate} for the Senate race (roughly the error of final-week expectations). It tracks the market while polls are open and is frozen at the last snapshot before poll close, so prices that react to returns are never fed back in. If no market price is usable, the prior is the baseline margin with sd {FORECAST.fallbackSigmaPts}.
+        </p>
+        <p className="mt-2">
+          The <span className="text-fg">returns-only projection</span> starts from an expected vote per locality or county: its 2024 share of the race vote times an expected total (2024 total × registration growth × the 2018-to-2024 turnout ratio), multiplied by a turnout factor learned from fully reported units (anchored at 1 by pseudo-votes worth {FORECAST.turnoutPriorShare * 100}% of the expected total). An incomplete unit is assumed to have at least {FORECAST.minOutstandingShare * 100}% of its vote outstanding. A uniform swing versus 2024 is estimated from reported units by inverse-variance weighting: a fully reported unit counts in full, a partially reported unit&apos;s weight is scaled by the square of its reported fraction (10% in means 1% of the weight), and small units carry more noise. Outstanding votes in every unit are projected at the unit&apos;s 2024 margin plus that swing. The variance adds the swing estimate&apos;s own error (unit noise sd {FORECAST.tauPts} points for a {FORECAST.referenceVotes.toLocaleString()}-vote unit, growing as 1/√votes up to {FORECAST.tauMaxMultiple}×, plus an early-return composition term of {FORECAST.swingBiasPts} points × (1 − effective fraction)), independent unit deviations, a shared remainder-composition term of {FORECAST.remainderSkewPts} points on the vote still outstanding in units that have begun reporting (what is left to count in a half-reported unit is rarely a random sample of it), a {FORECAST.kappa * 100}% relative uncertainty on each unit&apos;s expected vote, and a floor of {FORECAST.floorPts.unofficial} points until results are official for late mail, provisional ballots and canvass corrections.
+        </p>
+        <p className="mt-2">
+          The posterior mean is the precision-weighted average of the prior and the projection; P(D) is the normal probability that the final margin is positive. The displayed <span className="text-fg">prior weight</span> is exactly the prior&apos;s share of the posterior precision: 100% before any vote is counted, fading toward zero as the projection tightens. Nothing here feeds the chamber needles or the market panels, and the forecast never uses current market prices after poll close.
+        </p>
       </Details>
       <Details summary="Market midpoints, flags and the consensus needle">
         <p>
