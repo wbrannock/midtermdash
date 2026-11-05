@@ -8,12 +8,8 @@ name: Refresh data
 # schedules on public repos after 60 days without repository activity.
 
 on:
-  schedule:
-    # Every 5 minutes, offset from :00. The job exits in seconds when outside
-    # the election-night window configured in lib/registry.ts.
-    - cron: "3-58/5 * * * *"
-    # Every 2 hours regardless of the window (keeps markets history flowing).
-    - cron: "17 */2 * * *"
+  # Scheduled runs removed after the 2026 election (shut down 2026-11-05).
+  # Previously: "3-58/5 * * * *" (election-night window) and "17 */2 * * *".
   workflow_dispatch:
     inputs:
       force:
